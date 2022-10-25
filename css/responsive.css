@@ -15,6 +15,12 @@
         display: grid;
         grid-template-columns: repeat(4,1fr);
     } 
+    .input_quiz{
+        width: 100% !important;
+    }
+    .quit_contest .box_form_quiz{
+        display: block !important;
+    }
 }
 
 /* mobile all responsive */
@@ -37,12 +43,65 @@ display: flex;
 justify-content: center;
 align-items: center;
     }
+    .footer-secondary .social-icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer {
+padding: 0px;
+    }
+    .footer-text{
+        text-align: center;
+        margin: 10px 0px;
+    }
+
+
+    .input_quiz{
+        width: 100% !important;
+    }
+    .quit_contest .box_form_quiz{
+        display: block !important;
+    }
+
+    .box_services_border{
+       
+        text-align: center;
+    }
+
+    .margin_contain {
+        margin: 0px;
+    }
+    .targetting_child {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding: 20px;
+    }
+    .box_services_colr{
+        text-align: center;
+        padding: 15px 10px;
+    }
 }
 
 @media (max-width:992px){
+
+    .margin_contain {
+        margin: 0px;
+    }
+    .targetting_child {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding: 20px;
+    }
+    .box_services_colr{
+        text-align: center;
+        padding: 15px 10px;
+    }
+    .quit_contest  .btn_quiz{
+        width: 100%;
+    }
     .header .navbar .navbar-nav .nav-item.active .nav-link {
-        background-color: var(--background-btn);
-        color: var(--whitecolor);
+
         padding: auto;
         border-radius: 8px;
         text-align: center;
@@ -60,5 +119,8 @@ align-items: center;
 @media (min-width:900px) {
     .card{
 width: 18rem;
+    }
+    .quit_contest .input_quiz{
+        width: 115%;
     }
 }
