@@ -8,12 +8,17 @@
         display: grid;
         grid-template-columns: repeat(5,1fr);
     } 
+    .section_tip_page .box_btn_tip {
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        gap: 10px;
+    }
 }
 
 @media (min-width:576px) and (max-width:768px) {
     .blog_nav_menu .nav{
         display: grid;
-        grid-template-columns: repeat(4,1fr);
+        grid-template-columns: repeat(2,1fr);
     } 
     .input_quiz{
         width: 100% !important;
@@ -21,11 +26,66 @@
     .quit_contest .box_form_quiz{
         display: block !important;
     }
+    .section_tip_page .box_btn_tip {
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        gap: 10px;
+        overflow-x: scroll;
+    }
+   
+    .section_tip_page .box_btn_tip {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 10px;
+        place-content: center;
+        place-items: center;
+    }
+    .mobile_text_box{
+        width: 100%;
+    }
 }
 
 /* mobile all responsive */
 
 @media (max-width:576px){
+    .section_tip_page .box_btn_tip {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+        place-content: center;
+    place-items: center;
+    }
+    .section_tip_page   .mobile_text_box{
+        width: 100%;
+        padding: 20px;
+    }
+    .section_tip_page  .btn_tip{
+        width: 100%;
+        padding: 10px 20px;
+    }
+    
+    .career_form_box .nav-tabs{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .careers_page .btn_career_apply{
+        width: 100%;
+    }
+    .careers_page .container_fluid_career{
+        padding: 170px 0px;
+        overflow-x: hidden;
+    }
+    .modal_section .modal-dialog {
+        max-width: 100%;
+        margin: 1.75rem auto;
+    }
+    .careers_page .modalone_full .modal-dialog {
+        max-width: 100%;
+        margin: 1.75rem auto;
+    }
+    .careers_page .modalone_full .box_modal_colr{
+        display: none;
+    }
     .blog_nav_menu .nav{
         display: grid;
         grid-template-columns: repeat(3,1fr);
@@ -106,6 +166,9 @@ padding: 0px;
         border-radius: 8px;
         text-align: center;
     }
+    .postioning_box_text{
+      margin-top: 60%;
+    }
 }
 
 
@@ -123,4 +186,9 @@ width: 18rem;
     .quit_contest .input_quiz{
         width: 115%;
     }
+    .section_tip_page  .postioning_box_text{
+        position: absolute;
+        top: 25%;
+        padding-left: 150px;
+      }
 }

@@ -572,122 +572,238 @@ margin: 20px 0px;
           text-transform: capitalize;
      }
 .careers_page{
-
+margin: 100px 0px;
 }
 
 .careers_page .carosel_img{
-     /* background-image: url("../images/careers.svg");
-     position: relative;
-     height: 100vh;
-     width: 100vw;
-     background-position: center;
-     background-size: cover;
-     background-repeat: no-repeat;
-     z-index: 1; */
+    z-index: 100;
+    overflow-y: visible;
 }
-.container_fluid_career{
+.careers_page .carousel-inner {
+     position: relative;
+     width: 100%;
+     overflow: scroll;
+    
+ }
+.careers_page .container_fluid_career{
      padding: 50px;
      position: absolute;
      top: 0px;
      width: 100%;
      max-width: 100%;
 }
-.career_form_box{
+.careers_page .career_form_box{
      background-color: var(--whitecolor);
    
 }
-.career_form_box .nav-tabs{
+.careers_page .career_form_box .nav-tabs{
 background-color: #273b5e;
 }
-.career_form_box .nav-tabs .nav-link{
+.careers_page .career_form_box .nav-tabs .nav-link{
     color: var(--whitecolor);
     font-weight: 400;
     text-transform: capitalize;
    text-align: center;
      }
-     .box_card_apply{
+     .careers_page .btn_career_apply{
+          margin-top: 8px;
+          border-radius: 15px;
+          padding: 5px 30px;
+     }
+     .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+          color: var(--blackcolor) !important;
+          background-color: #fff;
+          border-color: #dee2e6 #dee2e6 #fff;
+      }
+     .careers_page .box_card_apply{
           padding: 20px;
           width: 100%;
      }
-     .card_box{
+     .careers_page .card_box{
           width: 100%;
           background-color: var(--bg-lightcolor);
           padding: 20px;
           border-radius: 10px;
           width: 100%;
           text-transform: capitalize;
+          margin-top: 20px;
      }
-     .btn_apply{
+     .careers_page .modalone_full .btn_apply{
           float: right;
           margin-top: 10px;
           padding: 10 30px;
           border-radius: 12px;
      }
-     .heading_card{
+     .careers_page .heading_card{
           font-weight: 700;
 
      }
-     .view_detail_btn{
+     .careers_page .view_detail_btn{
           color: var(--background-main);
           font-weight: 400;
      }
-     .another_details{
+     .careers_page .modalone_full .another_details{
        margin-top: 10px;
        font-weight: 400;
      }
 
-     .modal-header {
+     .careers_page .modalone_full .modal-header {
           border-bottom: 1px solid transparent !important;
           text-transform: capitalize;
          }
-         .heading_modal_lg{
+         .careers_page  .modalone_full .heading_modal_lg{
           font-weight: 700;
           font-size: 25px;
           text-transform: capitalize;
           margin-bottom: 20px;
          }
-         .heading_modal_md{
+         .careers_page .modalone_full .heading_modal_md{
           font-weight: 500;
           font-size: 20px;
           text-transform: capitalize;
           margin-bottom: 20px;
          }
-         .heading_modal_md .paragraph{
+         .careers_page .modalone_full .heading_modal_md .paragraph{
           font-size: 15px;
           font-weight: 400;
          }
-         .heading_modal_md .paragraph ul li{
+         .modalone_full .heading_modal_md .paragraph ul li{
           text-decoration: none;
           list-style-type: none;
          }
-         .modal-dialog {
+         .careers_page .modalone_full  .modal-dialog {
           max-width: 70%;
           margin: 1.75rem auto;
       }
-      .modal-content{
+      .careers_page .modalone_full .modal-content{
           border-radius: 20px !important;
-          padding: 20px;
+          padding: 0px;
       }
-      .modal-footer{
+      .careers_page  .modalone_full .modal-footer{
           display: flex;
           justify-content: center !important;
+    border-top: 1px solid transparent;
       }
-      .btn-apply{
+      .careers_page .modalone_full .btn-apply{
           background-color: var(--background-btn);
           color: var(--whitecolor);
           text-transform: capitalize;
           font-weight: 500;
-          padding: 10px 30px;
+          padding: 10px 100px;
+          border-radius: 15px;
+          
       }
-.box_modal_colr{
-     background-color: var(--background-btn);
-     height: 100%;
-     text-align: center;
+
+      .careers_page .modalone_full .box_modal_colr{
+          background-color: var(--background-main);
+          color: var(--whitecolor);
+          height: 100%;
+          padding: 0px !important;
+          position: relative;
+          margin-left: -15px;
+          margin-top: -24px;
+          text-transform: capitalize;
+          font-weight: 900;
+          font-size: 25px;
+          text-align: center;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      .careers_page .close{
+          margin-right: 30px;
+          margin-top: 20px;
+      }
+      .box_form_modal{
+          padding: 20px;
+      }
+      .modalone_full .modal-body {
+padding:0px;
+      }
+      .modalone_full .form_group_modal{
+          text-transform: capitalize;
+          margin-top: 20px;
+      }
+      .modalone_full .form_group_modal label{
+     font-weight: 500;
+     color: #141414;
+      }
+      .modalone_full .choose_file[type="file"]{
+   display: none;
 }
-.modalone_full .moda
+.modalone_full input[type="file"] {
+     display: none;
+ }
+ .modalone_full .box_input label{
+     background-color: var(--background-btn);
+     color: var(--whitecolor);
+     text-transform: capitalize;
+     font-weight: 500;
+     padding: 10px 30px;
+     border-radius: 10px;
+     cursor: pointer;
+ }
+ .modalone_full .modal_footh{
+     margin: 30px 0px;
+ }
+ .modalone_full .form_group_modal .modal_form_control{
+height: 50px !important;
+ }
+
+ .modal_section .modal-header {
+     border-bottom: 1px solid transparent !important;
+     text-transform: capitalize;
+     padding: 0px !important;
+    }
+    .modal_section .heading_modal_lg{
+     font-weight: 700;
+     font-size: 25px;
+     text-transform: capitalize;
+     margin-bottom: 20px;
+    }
+    .modal_section .heading_modal_md{
+     font-weight: 500;
+     font-size: 20px;
+     text-transform: capitalize;
+     margin-bottom: 20px;
+    }
+    .modal_section .heading_modal_md .paragraph{
+     font-size: 15px;
+     font-weight: 400;
+    }
+    .modal_section .heading_modal_md .paragraph ul li{
+     text-decoration: none;
+     list-style-type: none;
+    }
+    .modal_section .modal-dialog {
+     max-width: 70%;
+     margin: 1.75rem auto;
+ }
+ .modal_section .modal-content{
+     border-radius: 20px !important;
+     padding: 20px;
+ }
+ .modal_section .modal-footer{
+     display: flex;
+     justify-content: center !important;
+     border-top: 1px solid transparent !important;
+ }
+ .modal_section .btn-apply{
+     background-color: var(--background-btn);
+     color: var(--whitecolor);
+     text-transform: capitalize;
+     font-weight: 500;
+     padding: 10px 30px;
+ }
+ .modal_section .box_modal_colr{
+background-color: var(--background-btn);
+height: 100%;
+text-align: center;
+}
+
 /* this is tip page  */
 
-.box_radius_white{
+.section_tip_page .box_radius_white{
      background-color: var(--whitecolor);
      border-radius: 20px;
      padding: 20px;
@@ -697,20 +813,21 @@ background-color: #273b5e;
      margin: 120px 0px;
   
 }
-.text_graph{
+.section_tip_page  .text_graph{
      font-weight: 600;
     text-align: center;
      text-transform: capitalize;
      color: var(--blackcolor);
 }
-.box_btn_tip{
+.section_tip_page  .box_btn_tip{
 display: grid;
 grid-template-columns: repeat(3,1fr);
 gap: 20px;
 
 
 }
-.text_box_btn{
+
+   .section_tip_page  .text_box_btn{
      background-color: var(--bg-lightcolor);
     padding: 10px 40px;
     border-radius: 10px;
@@ -720,34 +837,25 @@ gap: 20px;
     text-transform: capitalize;
   
 }
-.font_size{
+.section_tip_page  .font_size{
      font-size: 10px;
      display: flex;
+     padding: 18px;
 }
-.btn_tip{
+.carousel-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+}
+.section_tip_page  .btn_tip{
      margin: 20px 0px;
 }
-.box_radius_white2{
-   
-    }
-    .section_tip_page{
+
+ .section_tip_page{
      margin-top: 100px;
   padding-bottom: 100px;
 
-    }
-    .box_colr_redish{
-     background-color:#fff;
-     border-radius: 10px;
-     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-     background-image: url("../images/Tip-background-.svg");
-     background-size: cover;
-    border-bottom-left-radius: 20px;
- 
-  background-repeat: no-repeat;
-padding-top: 100px;
-padding-left: 100px;
-overflow: hidden;
-background-clip: content-box;
     }
 
   
@@ -947,21 +1055,25 @@ background-clip: content-box;
 
 }
 
-.footer .footer-heading {
-     text-transform: capitalize;
-     font-size: 18px;
-}
 
 .footer .footer-nav .nav-item {
      list-style-type: none;
 
 }
-
+.footer .footer-nav .nav-item .nav-link.footer-heading{
+     text-transform: capitalize;
+     font-size: 22px;
+     font-weight: 900;
+}
 .footer .footer-nav .nav-item .nav-link {
      color: var(--blackcolor);
+     font-weight: 500 !important;
+     font-size: 14px;
 
 }
-
+.footer .nav-link {
+     font-weight: 500 !important;
+ }
 .footer .footer-form .nav-item {
      list-style-type: none;
 }
