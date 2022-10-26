@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-    <title>testing</title>
+    <title>Manager Orders</title>
     <meta property="og:title" content="New order" />
     <link
       rel="stylesheet"
@@ -45,44 +45,263 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   </head>
   <body>
+    <section class="manage_order_Section">
+    <section class="sider_dashbord_login">
+      <div class="side_nav " id="sidebar">
+        <div class="icon_sidebar" onclick="sidebarToggle()">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <ul class="sidebar p-0" >
+         <li class="nav-items active">
+             <div class="more_menu">
+                  <a href="#" class="menu_item">
+                    <div class="menu_icon">
+                      <img src="../images/dashboard.svg" alt="" class="img">
+                      
+                    </div>
+                    <div class="menu_name">Dashboard</div>
+                  </a>
+                </div>
+         </li>
+         <li class="nav-items">
+             <div class="more_menu">
+                  <a href="#" class="menu_item">
+                    <div class="menu_icon">
+                      <img src="../images/products (2).svg" alt="" class="img">
+                      
+                    </div>
+                    <div class="menu_name">products</div>
+                  </a>
+                </div>
+         </li>
+      
+         <li class="nav-items">
+             <div class="more_menu">
+                  <a href="#" class="menu_item">
+                    <div class="menu_icon">
+                      <img src="../images/order.svg" alt="" class="img">
+                      
+                    </div>
+                    <div class="menu_name">orders</div>
+                  </a>
+                </div>
+         </li>
+      
+         <li class="nav-items">
+             <div class="more_menu">
+                  <a href="#" class="menu_item">
+                    <div class="menu_icon">
+                      <img src="../images/reports.svg " class="img">
+                      
+                    </div>
+                    <div class="menu_name">reports</div>
+                  </a>
+                </div>
+         </li>
+         <hr>
+         <li class="nav-items">
+             <div class="more_menu">
+                  <a href="#" class="menu_item">
+                    <div class="menu_icon">
+                      <img src="../images/users.svg" class="img">
+                      
+                    </div>
+                    <div class="menu_name">profile</div>
+                  </a>
+                </div>
+         </li>
+         <li class="nav-items">
+             <div class="more_menu">
+                  <a href="#" class="menu_item">
+                    <div class="menu_icon">
+                      <img src="../images/settings.svg" class="img">
+                      
+                    </div>
+                    <div class="menu_name">settings</div>
+                  </a>
+                </div>
+         </li>
+        </ul>
+       </div>
+      </section>
+<section class="manage_order_section">
+  <div class="container container_wrapper">
+    <div class="row">
+      <div class="col-xs-12  ">
+        <div class="table_section smal_device_margin_padding">
+          <table class="table">
+            <thead>
+              <tr class="nav_table_row">
+              <div class="to_nav_table">
+                <ul class="nav nav-tabs">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">active order</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">completed</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">cancelled</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">all order</a>
+                  </li>
+                
+                </ul>
+              </div>
+              </tr>
+              <tr>
+                <th scope="col" class="main_heading_top">due date</th>
+                <th scope="col" class="main_heading_top">deliver date</th>
+                <th scope="col" class="main_heading_top">order id</th>
+                <th scope="col" class="main_heading_top">products</th>
+                <th scope="col" class="main_heading_top">order amount</th>
+              </tr>
+            </thead>
+            <tbody>
+           
+              <tr>
+                <th scope="row">10/26/2022</th>
+                <td>10/26/2022</td>
+                <td>25389</td>
+                <td class="width_mange_order">
+                  <img
+                    src="../images/demomanimgaes.jpg"
+                    alt=""
+                    class="w-25"
+                  />
+                  Lorem ipsum dolor sit.
+                </td>
+                <td><span class="order_class">
+                  $530
+                </span></td>
+                <td>
+                  <button class="btn btn_reorder">re-order</button>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">10/26/2022</th>
+                <td>10/26/2022</td>
+                <td>25389</td>
+                <td class="width_mange_order">
+                  <img
+                    src="../images/demomanimgaes.jpg"
+                    alt=""
+                    class="w-25"
+                  />
+                  Lorem ipsum dolor sit.
+                </td>
+                <td><span class="order_class">
+                  $530
+                </span></td>
+                <td>
+                  <button class="btn btn_reorder">re-order</button>
+                </td>
+              </tr>
 
-<div class="container-fluid container_wrapper">
-     <div class="row">
-          <div class="table_section">
-               <table class="table table-hover">
-                    <thead>
-                      <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">First</th>
-                        <th scope="col">Last</th>
-                        <th scope="col">Handle</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th scope="row">1</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">2</th>
-                        <td>Jacob</td>
-                        <td>Thornton</td>
-                        <td>@fat</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">3</th>
-                        <td colspan="2">Larry the Bird</td>
-                        <td>@twitter</td>
-                      </tr>
-                    </tbody>
-                  </table>
-          </div>
-     </div>
-</div>     
+              <tr>
+                <th scope="row">10/26/2022</th>
+                <td>10/26/2022</td>
+                <td>25389</td>
+                <td class="width_mange_order">
+                  <img
+                    src="../images/demomanimgaes.jpg"
+                    alt=""
+                    class="w-25"
+                  />
+                  Lorem ipsum dolor sit.
+                </td>
+                <td><span class="order_class">
+                  $530
+                </span></td>
+                <td>
+                  <button class="btn btn_reorder">re-order</button>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">10/26/2022</th>
+                <td>10/26/2022</td>
+                <td>25389</td>
+                <td class="width_mange_order">
+                  <img
+                    src="../images/demomanimgaes.jpg"
+                    alt=""
+                    class="w-25"
+                  />
+                  Lorem ipsum dolor sit.
+                </td>
+                <td><span class="order_class">
+                  $530
+                </span></td>
+                <td>
+                  <button class="btn btn_reorder">re-order</button>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">10/26/2022</th>
+                <td>10/26/2022</td>
+                <td>25389</td>
+                <td class="width_mange_order">
+                  <img
+                    src="../images/demomanimgaes.jpg"
+                    alt=""
+                    class="w-25"
+                  />
+                  Lorem ipsum dolor sit.
+                </td>
+                <td><span class="order_class">
+                  $530
+                </span></td>
+                <td>
+                  <button class="btn btn_reorder">re-order</button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+</div>  
+</section>  
+</section>
+
+
+<footer>
+  <div class="footer-secondary">
+       <div class="row">
+            <div class="col-sm-6">
+                 <div class="footer-text">
+                      all copy rights resived @lorem ipsum
+                 </div>
+            </div>
+
+            <div class="col-sm-6">
+                 <div class="social-icons">
+                  <div class="icon">
+                      <i class="fa-brands fa-facebook-f"></i>
+                    
+                  </div>
+                  <div class="icon">
+                      <i class="fa-brands fa-twitter"></i>
+                  </div>
+                  <div class="icon">
+                      <i class="fa-brands fa-instagram"></i>
+                  </div>
+                 </div>
+            </div>
+       </div>
+  </div>
+</footer>
   </body>
+  <script>
 
+    function sidebarToggle(){
+    
+      let sidebar=document.getElementById("sidebar")
+      sidebar.classList.toggle("active")
+    }
+    </script>
   <script
     src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

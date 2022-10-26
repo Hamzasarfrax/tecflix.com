@@ -21,78 +21,400 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="assets/css/style.bundle.css" rel="stylesheet" type="text/css"/>
-<script src="assets/js/scripts.bundle.js"></script>
+
 
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/data.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/modules/export-data.js"></script>
+<script src="https://code.highcharts.com/modules/accessibility.js"></script>
 <style>
-.side_nav{
-  position: fixed;
-  width: 300px;
-  background-color: red;
-  height: 100vh;
-  transition: all 0.5s;
-}
-.sidebar{
-  margin-top: 100px;
-  transition: all 0.5s;
-  width: inherit;
-}
-.menu_name{
-  transition: all 0.7s;
-}
+ .login_dashbord .side_nav{
+     position: fixed;
+     width: 300px;
+     background-color: var(--bg-lightcolor);
+height: 100vh;
+min-height: 100vh;
+max-height: 100vh;
+     transition: all 0.5s;
+     text-transform: capitalize;
+     z-index: 100;
+   }
+   .login_dashbord  .sidebar{
+     margin-top: 100px;
+     margin-bottom: 50px;
+     transition: all 0.5s;
+     width: inherit;
+   }
+   .login_dashbord .menu_name{
+     transition: all 0.7s;
+   }
+   
+   .login_dashbord  .sidebar  .menu_item{
+    display: flex;
+    gap: 10px;
+    text-decoration: none;
+    width: 100%;
+    padding: 10px 20px;
+   }
+   .login_dashbord .icon_sidebar{
+     display: flex;
+     float: right;
+     padding: 10px;
+     cursor: pointer;
+     font-size: 20px;
+   }
+   .login_dashbord .side_nav.active .sidebar{
+   
+   }
+   .login_dashbord .side_nav.active{
+     background-color: aliceblue;
+ /* transform: translateX(-90%); */
+ width: 100px;
+    
+   }
+   .login_dashbord .side_nav.active .menu_name{
+     display: none;
+     transition: all 0.5s;
+   }
+   .login_dashbord  .sidebar ul {
+     margin: 0;
+     padding: 0px !important;
+     list-style: none;
+     overflow-y: scroll;
+ }
+ .login_dashbord .sidebar ul .nav-item{
+     list-style-type: none;
+ }
+ .login_dashbord .more_menu{
+     display: flex; 
+     justify-content: center;
+     font-size: 20px;
+     margin-top: 30px;
+     
+ }
+ .login_dashbord .menu_name{
+     color: var(--blackcolor);
+ }
+ .login_dashbord .menu_icon .img{
+     width: 30px;
+     height: 30px;
 
-.sidebar  .menu_item{
- display: flex;
- gap: 10px;
- text-decoration: none;
-}
-.icon_sidebar{
-  display: flex;
-  float: right;
-  padding: 10px;
-  cursor: pointer;
-}
-.side_nav.active .sidebar{
+ }
+ .login_dashbord .nav-items:hover{
+     background-color: var(--whitecolor);
+     border-left: 4px solid var(--background-main);
+ }
+ .login_dashbord .nav-items.active{
+     background-color: var(--whitecolor);
+     border-left: 4px solid var(--background-main);
+ }
 
-}
-.side_nav.active{
-  background-color: aliceblue;
-width: 100px;
- 
-}
-.side_nav.active .menu_name{
-  display: none;
-  transition: all 0.7s;
-}
-.side_nav li{
-  background-color: green;
-}
 </style>
   </head>
   <body>
 
 
-     
-   
- <nav class="side_nav" id="sidebar">
-  <div class="icon_sidebar" onclick="sidebarToggle()">
-    <i class="fa-solid fa-bars"></i>
-  </div>
-  <ul class="sidebar" >
-    <div class="more_menu">
-      <a href="#" class="menu_item">
-        <div class="menu_icon">
-          <img src="" alt="">
-          <i class="fas fa-chalkboard"></i>
+     <section class="login_dashbord">
+    <div class="side_nav " id="sidebar">
+      <div class="icon_sidebar" onclick="sidebarToggle()">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+      <ul class="sidebar p-0" >
+       <li class="nav-items active">
+           <div class="more_menu">
+                <a href="#" class="menu_item">
+                  <div class="menu_icon">
+                    <img src="../images/dashboard.svg" alt="" class="img">
+                    
+                  </div>
+                  <div class="menu_name">Dashboard</div>
+                </a>
+              </div>
+       </li>
+       <li class="nav-items">
+           <div class="more_menu">
+                <a href="#" class="menu_item">
+                  <div class="menu_icon">
+                    <img src="../images/products (2).svg" alt="" class="img">
+                    
+                  </div>
+                  <div class="menu_name">products</div>
+                </a>
+              </div>
+       </li>
+    
+       <li class="nav-items">
+           <div class="more_menu">
+                <a href="#" class="menu_item">
+                  <div class="menu_icon">
+                    <img src="../images/order.svg" alt="" class="img">
+                    
+                  </div>
+                  <div class="menu_name">orders</div>
+                </a>
+              </div>
+       </li>
+    
+       <li class="nav-items">
+           <div class="more_menu">
+                <a href="#" class="menu_item">
+                  <div class="menu_icon">
+                    <img src="../images/reports.svg " class="img">
+                    
+                  </div>
+                  <div class="menu_name">reports</div>
+                </a>
+              </div>
+       </li>
+       <hr>
+       <li class="nav-items">
+           <div class="more_menu">
+                <a href="#" class="menu_item">
+                  <div class="menu_icon">
+                    <img src="../images/users.svg" class="img">
+                    
+                  </div>
+                  <div class="menu_name">profile</div>
+                </a>
+              </div>
+       </li>
+       <li class="nav-items">
+           <div class="more_menu">
+                <a href="#" class="menu_item">
+                  <div class="menu_icon">
+                    <img src="../images/settings.svg" class="img">
+                    
+                  </div>
+                  <div class="menu_name">settings</div>
+                </a>
+              </div>
+       </li>
+      </ul>
+     </div>
+    </section>
+    <section class="login_dashbor">
+      <div class=" container_wrapper">
+        <div class="text-heading">latest orders</div>
+        <div class="row">
+          <div class="col-md-8 table_rad">
+            <div class="table_section">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col" class="main_heading_top">date</th>
+                    <th scope="col" class="main_heading_top">id</th>
+                    <th scope="col" class="main_heading_top">order</th>
+                    <th scope="col" class="main_heading_top">status</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">10/26/2022</th>
+                    <td>25389</td>
+                    <td>
+                      <img
+                        src="../images/demomanimgaes.jpg"
+                        alt=""
+                        class="w-25"
+                      />
+                      Lorem ipsum dolor sit.
+                    </td>
+                    <td>
+                      <button class="btn btn_table">completed</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">10/26/2022</th>
+                    <td>25389</td>
+                    <td>
+                      <img
+                        src="../images/demomanimgaes.jpg"
+                        alt=""
+                        class="w-25"
+                      />
+                      Lorem ipsum dolor sit.
+                    </td>
+                    <td>
+                      <button
+                        class="btn btn_table"
+                        style="background-color: #e51918"
+                      >
+                        completed
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">10/26/2022</th>
+                    <td>25389</td>
+                    <td>
+                      <img
+                        src="../images/demomanimgaes.jpg"
+                        alt=""
+                        class="w-25"
+                      />
+                      Lorem ipsum dolor sit.
+                    </td>
+                    <td>
+                      <button
+                        class="btn btn_table"
+                        style="background-color: #ffc876"
+                      >
+                        completed
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">10/26/2022</th>
+                    <td>25389</td>
+                    <td>
+                      <img
+                        src="../images/demomanimgaes.jpg"
+                        alt=""
+                        class="w-25"
+                      />
+                      Lorem ipsum dolor sit.
+                    </td>
+                    <td>
+                      <button
+                        class="btn btn_table"
+                        style="background-color: #ffc876"
+                      >
+                        completed
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">10/26/2022</th>
+                    <td>25389</td>
+                    <td>
+                      <img
+                        src="../images/demomanimgaes.jpg"
+                        alt=""
+                        class="w-25"
+                      />
+                      Lorem ipsum dolor sit.
+                    </td>
+                    <td>
+                      <button class="btn btn_table">completed</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">10/26/2022</th>
+                    <td>25389</td>
+                    <td>
+                      <img
+                        src="../images/demomanimgaes.jpg"
+                        alt=""
+                        class="w-25"
+                      />
+                      Lorem ipsum dolor sit.
+                    </td>
+                    <td>
+                      <button class="btn btn_table">completed</button>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="box_girl_avtar">
+              <div class="box_img_postion">
+                <img
+                  src="../images/demomanimgaes.jpg"
+                  alt="Avatar"
+                  class="avatar"
+                />
+                <div class="text_heading_img">stephen doe</div>
+              </div>
+              <div class="box_with_detail">
+                <div class="design_color">
+                  <div class="heading_that_design">wallet ballence</div>
+                  <div class="box_design">
+                    <div class="icon_div">
+                      <i class="fa-regular fa-dollar-sign"></i>
+                    </div>
+                    <div class="price_div">980</div>
+                  </div>
+                </div>
+                <div class="design_color_sec">
+                  <div class="heading_that_design">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    total order
+                  </div>
+                  <div class="box_design">
+                    <div class="icon_div">
+                      <i class="fa-regular fa-dollar-sign"></i>
+                    </div>
+                    <div class="price_div">980</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="menu_name">Dashboard</div>
-      </a>
-    </div>
-  </ul>
- </nav>
-  
 
+        <!-- this is container padding -->
+        <div class="high_charts_set">
+          <div class="text_highcharts">order statics</div>
+          <div class="row">
+            <div class="col-sm-7">
+              <figure class="highcharts-figure">
+                <div id="container"></div>
+                <p class="highcharts-description"></p>
+              </figure>
+            </div>
+            <div class="col-sm-5">
+              <div class="box_orders">
+                <div class="text_order">pending orders</div>
+                <div class="circle_order">
+                  <div class="icon_width">25%</div>
+                </div>
+              </div>
+
+              <div
+                class="box_orders"
+                style="background-color: #377dff; color: #fff !important"
+              >
+                <div class="text_order">completed orders</div>
+                <div class="circle_order">
+                  <div class="icon_widthsec">25%</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-secondary">
+           <div class="row">
+                <div class="col-sm-6">
+                     <div class="footer-text">
+                          all copy rights resived @lorem ipsum
+                     </div>
+                </div>
+ 
+                <div class="col-sm-6">
+                     <div class="social-icons">
+                      <div class="icon">
+                          <i class="fa-brands fa-facebook-f"></i>
+                        
+                      </div>
+                      <div class="icon">
+                          <i class="fa-brands fa-twitter"></i>
+                      </div>
+                      <div class="icon">
+                          <i class="fa-brands fa-instagram"></i>
+                      </div>
+                     </div>
+                </div>
+           </div>
+      </div>
+  </footer>
   </body>
 <script>
 
@@ -101,6 +423,79 @@ function sidebarToggle(){
   let sidebar=document.getElementById("sidebar")
   sidebar.classList.toggle("active")
 }
+</script>
+
+    <script>
+    Highcharts.getJSON(
+      "https://cdn.jsdelivr.net/gh/highcharts/highcharts@v7.0.0/samples/data/usdeur.json",
+      function (data) {
+        Highcharts.chart("container", {
+          chart: {
+            zoomType: "x",
+          },
+          title: {
+            text: "USD to EUR exchange rate over time",
+          },
+          subtitle: {
+            text:
+              document.ontouchstart === undefined
+                ? "Click and drag in the plot area to zoom in"
+                : "Pinch the chart to zoom in",
+          },
+          xAxis: {
+            type: "datetime",
+          },
+          yAxis: {
+            title: {
+              text: "Exchange rate",
+            },
+          },
+          legend: {
+            enabled: false,
+          },
+          plotOptions: {
+            area: {
+              fillColor: {
+                linearGradient: {
+                  x1: 0,
+                  y1: 0,
+                  x2: 0,
+                  y2: 1,
+                },
+                stops: [
+                  [0, Highcharts.getOptions().colors[0]],
+                  [
+                    1,
+                    Highcharts.color(Highcharts.getOptions().colors[0])
+                      .setOpacity(0)
+                      .get("rgba"),
+                  ],
+                ],
+              },
+              marker: {
+                radius: 2,
+              },
+              lineWidth: 1,
+              states: {
+                hover: {
+                  lineWidth: 1,
+                },
+              },
+              threshold: null,
+            },
+          },
+
+          series: [
+            {
+              type: "area",
+              name: "USD to EUR",
+              data: data,
+            },
+          ],
+        });
+      }
+    );
+
 </script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>

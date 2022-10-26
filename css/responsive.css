@@ -61,26 +61,21 @@
 /* mobile all responsive */
 
 @media (max-width:576px){
-    .login_dashbord .side_nav{
-        position: fixed;
-        width: 300px;
-        background-color: var(--bg-lightcolor);
-        height: 100vh !important;
-        transition: all 0.5s;
-        text-transform: capitalize;
-        z-index: 100;
-      }
-    .container_wrapper{
+
+    .manage_order_section .nav-tabs {
+        display: flex;
+        gap: 0px;
+    }
+    .login_page{
+
+        overflow-y: scroll;
        
-         padding-left: 340px;
-         padding-right: 50px;
-      
-     }
-     .container_wrapper.active{
-         padding-left: 120px;
-         padding-right: 50px;
-      
-     }
+      }
+   
+      .manage_order_Section{
+        
+        overflow-y: scroll;
+      }
     .box_girl_avtar{
         margin-top: 50px;
     }
@@ -234,17 +229,7 @@ padding: 0px;
 
  @media (min-width:576px) {
 
-    .container_wrapper{
-        padding-top: 100px;
-         padding-left: 340px;
-         padding-right: 50px;
-         transition: all 0.5s;
-     }
-     .container_wrapper.active{
-         padding-left: 140px;
-         padding-right: 50px;
-         transition: all 0.5s;
-     }
+
  }
 
 @media (min-width:900px) {
