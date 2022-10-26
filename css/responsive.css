@@ -43,11 +43,65 @@
     .mobile_text_box{
         width: 100%;
     }
+
+    .sign_up_section .contec_with_box {
+        padding: 10px;
+        border: 1px solid #dee2e6;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        text-align: center;
+    }
+    .box_girl_avtar{
+        margin-top: 50px;
+    }
 }
 
 /* mobile all responsive */
 
 @media (max-width:576px){
+    .login_dashbord .side_nav{
+        position: fixed;
+        width: 300px;
+        background-color: var(--bg-lightcolor);
+        height: 100vh !important;
+        transition: all 0.5s;
+        text-transform: capitalize;
+        z-index: 100;
+      }
+    .container_wrapper{
+       
+         padding-left: 340px;
+         padding-right: 50px;
+      
+     }
+     .container_wrapper.active{
+         padding-left: 120px;
+         padding-right: 50px;
+      
+     }
+    .box_girl_avtar{
+        margin-top: 50px;
+    }
+    .quiz_contest_section .pay_now_btn{
+        margin-top: 30px;
+    }
+    .quiz_contest_section .card-text {
+       
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .sign_up_section .contec_with_box {
+        padding: 10px;
+        border: 1px solid #dee2e6;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        text-align: center;
+    }
     .section_tip_page .box_btn_tip {
         display: grid;
         grid-template-columns: repeat(2,1fr);
@@ -178,8 +232,24 @@ padding: 0px;
 
 
 
+ @media (min-width:576px) {
+
+    .container_wrapper{
+        padding-top: 100px;
+         padding-left: 340px;
+         padding-right: 50px;
+         transition: all 0.5s;
+     }
+     .container_wrapper.active{
+         padding-left: 140px;
+         padding-right: 50px;
+         transition: all 0.5s;
+     }
+ }
 
 @media (min-width:900px) {
+
+  
     .card{
 width: 18rem;
     }

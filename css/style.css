@@ -6,7 +6,24 @@
      --whitecolor: #fff;
 }
 
-
+li{
+     list-style-type: none;
+}
+a:hover{
+     text-decoration: none;
+}
+a{
+     text-decoration: none;
+}
+.btn:hover{
+   
+     color: var(--whitecolor);
+}
+.btn:focus{
+     outline: none;
+     border: none;
+     box-shadow: none;
+}
 /* this is header css */
 
 
@@ -80,6 +97,7 @@
      border-bottom-left-radius: 25px;
      border-bottom-right-radius: 25px;
 }
+
 
 /* this si floatin_icon */
 
@@ -801,6 +819,518 @@ height: 100%;
 text-align: center;
 }
 
+
+
+/* this is signup page  */
+.sign_up_section{
+
+}
+.sign_up_section .modal-title {
+     text-align: center;
+     font-weight: 700;
+     font-size: 20px;
+     text-transform: capitalize;
+}
+.sign_up_section .modal-header{
+     padding: 10px;
+     border-bottom: 1px solid transparent !important;
+     text-align: center;
+     display: flex;
+     justify-content: center;
+}
+.sign_up_section .modal-content {
+   border-radius: 20px;
+ }
+ .sign_up_section .modal-footer {
+   padding: 10px;
+     border-top: 1px solid transparent !important;
+     text-align: center;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+ }
+ .sign_up_section .btn_sign_up{
+padding: 10px 30px;
+font-weight: 500;
+letter-spacing: 2px;
+border-radius: 15px;
+ }
+
+ .sign_up_section .already_account{
+     text-transform: capitalize;
+     font-weight: 500;
+}
+
+.sign_up_section .form_box_signup{
+     display: flex;
+     width: 100%;
+}
+.sign_up_section .form_group_signip{
+     margin-top: 20px;
+}
+.sign_up_section .form_group_signip label{
+font-weight: 500;
+text-transform: capitalize;
+font-size: 18px;
+}
+.sign_up_section .form_sognup_contron{
+     height: 50px;
+     width: 100%;
+}
+
+.sign_up_section .contec_with_box{
+     padding: 10px;
+     border: 1px solid #dee2e6;
+     margin-top: 10px;
+display: flex;
+gap: 100px
+     
+}
+.sign_up_section .text_maring_bottom{
+     text-transform: capitalize;
+     font-weight: 600;
+     margin: 20px 0px;
+}
+
+.sign_up_section .contec_with_box.fb{
+background-color: #4167b2;
+color: #fff;
+text-transform: capitalize;
+}
+a:hover{
+     text-decoration: none !important;
+}
+.sign_up_section .heading_text a{
+    
+    font-weight: 500;
+    
+  
+    color: var(--whitecolor);
+}
+.sign_up_section .heading_text-sec a{
+    
+     font-weight: 500;
+    
+     text-transform: capitalize;
+
+     color: var(--blackcolor);
+}
+.sign_up_section .stepwizard-row {
+     display: table-row;
+ }
+ .sign_up_section .stepwizard {
+     display: table;
+     width: 100%;
+     position: relative;
+ }
+ 
+ .stepwizard .btn.disabled, .stepwizard .btn[disabled], .stepwizard fieldset[disabled] .btn {
+     opacity:1 !important;
+ 
+ }
+ .sign_up_section .stepwizard-row:before {
+     top: 14px;
+     bottom: 0;
+     position: absolute;
+     content:" ";
+     width: 100%;
+     height: 1px;
+     background-color: #ccc;
+     z-index: 0;
+ }
+ .sign_up_section .stepwizard-step {
+     display: table-cell;
+     text-align: center;
+     position: relative;
+ }
+ .sign_up_section .btn-circle {
+     width: 30px;
+     height: 30px;
+     text-align: center;
+     padding: 6px 0;
+     font-size: 12px;
+     line-height: 1.428571429;
+     border-radius: 15px;
+ }
+ .sign_up_section .PANNEL_HEADING{
+   font-weight: 900;
+   font-size: 25px;
+   text-transform: capitalize;
+ }
+ .sign_up_section .text_sucessful{
+   font-weight: 800;
+   font-size: 23px;
+   text-transform: capitalize;
+   color: rgb(21, 20, 20);
+ }
+ .sign_up_section .btn_sign_up{
+text-align: center;
+
+}
+
+/* this is quiz-contestpage */
+.quiz_contest_section{
+background-image: url("../images//quiz-bg.svg");
+background-size: cover;
+background-position: center;
+margin: 100px 0px;
+}
+.quiz_contest_section .box_confir_pay{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+     height: 100%;
+}
+.quiz_contest_section  .pay_now_btn{
+     padding: 10px 40px; 
+     width: 100%;
+     font-weight: 500;
+     border-radius: 15px;
+}
+.quiz_contest_section .card {
+    
+     word-wrap: break-word;
+     background-color: #fff;
+     background-clip: border-box;
+     border: 1px solid transparent;
+     border-radius: 0px ;
+ }
+ .quiz_contest_section .card-text{
+     padding: 5px;
+     font-weight: 500;
+     width: 100%;
+     text-align: center;
+ }
+ .quiz_contest_section .card-body {
+     -ms-flex: 1 1 auto;
+     flex: 1 1 auto;
+     min-height: 1px;
+     padding: 0px;
+ }
+ .quiz_contest_section .text_capitalize
+{
+     text-transform: capitalize;
+     font-weight: 500;
+     font-size: 18px;
+     text-align: center;
+ }
+ .quiz_contest_section .box_with_img_icons{
+     background-color: var(--bg-lightcolor);
+     padding: 20px;
+     border-radius: 15px;
+     text-align: center;
+     width: 100%;
+     height: 90%;
+  margin-top: 15px;
+ }
+ .quiz_contest_section .text_box_quiz_img{
+     font-weight: 500;
+     padding: 10px 0px;
+     text-transform: capitalize;
+ }
+ .quiz_contest_section .icon_img i{
+     font-size: 25px;
+ }
+
+ /* this is sidebar of login */
+ .login_dashbord{
+
+ }
+ .login_dashbord .side_nav{
+     position: fixed;
+     width: 300px;
+     background-color: var(--bg-lightcolor);
+
+     transition: all 0.5s;
+     text-transform: capitalize;
+     z-index: 100;
+   }
+   .login_dashbord  .sidebar{
+     margin-top: 100px;
+     margin-bottom: 50px;
+     transition: all 0.5s;
+     width: inherit;
+   }
+   .login_dashbord .menu_name{
+     transition: all 0.7s;
+   }
+   
+   .login_dashbord  .sidebar  .menu_item{
+    display: flex;
+    gap: 10px;
+    text-decoration: none;
+    width: 100%;
+    padding: 10px 20px;
+   }
+   .login_dashbord .icon_sidebar{
+     display: flex;
+     float: right;
+     padding: 10px;
+     cursor: pointer;
+     font-size: 20px;
+   }
+   .login_dashbord .side_nav.active .sidebar{
+   
+   }
+   .login_dashbord .side_nav.active{
+     background-color: aliceblue;
+ /* transform: translateX(-90%); */
+ width: 100px;
+    
+   }
+   .login_dashbord .side_nav.active .menu_name{
+     display: none;
+     transition: all 0.5s;
+   }
+   .login_dashbord  .sidebar ul {
+     margin: 0;
+     padding: 0px !important;
+     list-style: none;
+     overflow-y: scroll;
+ }
+ .login_dashbord .sidebar ul .nav-item{
+     list-style-type: none;
+ }
+ .login_dashbord .more_menu{
+     display: flex; 
+     justify-content: center;
+     font-size: 20px;
+     margin-top: 30px;
+     
+ }
+ .login_dashbord .menu_name{
+     color: var(--blackcolor);
+ }
+ .login_dashbord .menu_icon .img{
+     width: 30px;
+     height: 30px;
+
+ }
+ .login_dashbord .nav-item:hover{
+     background-color: var(--whitecolor);
+     border-left: 4px solid var(--background-main);
+ }
+ .login_dashbord .nav-item.active{
+     background-color: var(--whitecolor);
+     border-left: 4px solid var(--background-main);
+ }
+
+ /* thi si wrapperof text */
+
+ .login_dashbord .text-heading{
+     margin: 20px 0px;
+     text-transform: capitalize;
+     font-weight: 500;
+ }
+ .login_dashbord .box_girl_avtar{
+     background-color: #273b5e;
+     text-transform: capitalize;
+     width: 100%;
+
+     border-radius: 20px;
+     color: var(--whitecolor);
+     position: relative;
+ }
+ .box_girl_avtar .avatar {
+     vertical-align: middle;
+     width: 50px;
+     height: 50px;
+     border-radius: 50%;
+   }
+   .box_img_postion{
+     display: flex;
+     position: relative;
+     top: -20px;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+   }
+   .box_img_postion .text_heading_img{
+     font-weight: 500;
+     font-size: 20px;
+     margin: 10px 0px;
+   }
+   .box_with_detail {
+     padding-bottom: 40px;
+ }
+   .box_with_detail .price_div{
+     text-align: end;
+   }
+   .box_with_detail .design_color{
+     background-color: #68b981;
+     border-radius: 15px;
+     padding: 15px;
+     text-transform: capitalize;
+     font-weight: 500;
+     margin: 20px;
+   }
+   .box_with_detail .heading_that_design{
+     font-weight: 600;
+     font-size: 17px;
+     color: var(--whitecolor);
+   }
+   .box_with_detail .design_color_sec{
+     background-color: #4fa3a5;
+     border-radius: 15px;
+     padding: 15px;
+     text-transform: capitalize;
+     font-weight: 500;
+     margin: 20px;;
+   }
+   .box_with_detail .box_design{
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+    
+   }
+   .heading_that_design .img{
+width: 30px;
+   }
+
+   .table_section{
+     background-color: var(--bg-lightcolor);
+     width: 100%;
+     height: 100%;
+   
+   }
+   .table_rad{
+     background-color: var(--bg-lightcolor);
+     width: 100%;
+     height: 100%;
+     border-radius: 15px !important;
+   }
+   .table_section .table {
+     width: 100%;
+     margin-bottom: 1rem;
+   background-color: var(--bg-lightcolor) !important;
+   padding: 20px;
+   
+ }
+ .table_section .main_heading_top{
+     font-weight: 500;
+     font-size: 18px;
+     color: #141414;
+     text-transform: capitalize;
+ }
+ .table_section .table thead th {
+     vertical-align: bottom;
+     border-bottom: 2px solid transparent;
+ }
+ .table_section .table td, .table th {
+     padding: 0.75rem;
+     vertical-align: top;
+     border-top: 1px solid transparent;
+ }
+ .table_section .btn_table{
+     background-color: var(--background-btn);
+color: var(--whitecolor);
+border-radius: 12px;
+width: 100%;
+text-align: center;
+font-weight: 500;
+text-transform: capitalize;
+padding: 10px 30px;
+ }
+
+ /* this is charts */
+ .highcharts-figure,
+.highcharts-data-table table {
+  min-width: 360px;
+  max-width: 800px;
+  margin: 1em auto;
+}
+
+.highcharts-data-table table {
+  font-family: Verdana, sans-serif;
+  border-collapse: collapse;
+  border: 1px solid #ebebeb;
+  margin: 10px auto;
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+}
+
+.highcharts-data-table caption {
+  padding: 1em 0;
+  font-size: 1.2em;
+  color: #555;
+}
+
+.highcharts-data-table th {
+  font-weight: 600;
+  padding: 0.5em;
+}
+
+.highcharts-data-table td,
+.highcharts-data-table th,
+.highcharts-data-table caption {
+  padding: 0.5em;
+}
+
+.highcharts-data-table thead tr,
+.highcharts-data-table tr:nth-child(even) {
+  background: #f8f8f8;
+}
+.highcharts-title{
+     display: none;
+}
+.highcharts-subtitle{
+     display: none;
+}
+
+.highcharts-data-table tr:hover {
+  background: #f1f7ff;
+}
+.high_charts_set{
+     margin-top: 100px;
+}
+.high_charts_set .text_highcharts{
+     text-transform: capitalize;
+     font-weight: 500;
+}
+.high_charts_set .box_orders{
+     background-color: #ffc876;
+     padding: 20px;
+     border-radius: 20px;
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+     width: 100%;
+     margin-top: 20px;
+}
+.high_charts_set .text_order{
+     font-weight: 600;
+     font-size: 20px;
+     text-transform: capitalize;
+
+}
+.high_charts_set .circle_order{
+  
+     width: 100%;
+justify-content: end;
+     display: flex;
+     font-weight: 500;
+   text-align: end;
+}
+.high_charts_set .icon_widthsec{
+     width: 50px;
+     height: 50px;
+     border: 3px solid #fff;
+     border-radius: 50%;
+    text-align: center;
+    display: grid;
+    place-content: center;
+}
+.high_charts_set .icon_width{
+     width: 50px;
+     height: 50px;
+     border: 3px solid #e5af5f;
+     border-radius: 50%;
+     justify-content: end;
+     text-align: center;
+     display: grid;
+     place-content: center;
+     margin-left: -10px;
+}
 /* this is tip page  */
 
 .section_tip_page .box_radius_white{
