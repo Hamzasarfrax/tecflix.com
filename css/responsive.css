@@ -13,9 +13,55 @@
         grid-template-columns: repeat(5,1fr);
         gap: 10px;
     }
+    .checkout_section .form_group_checkout{
+display: flex;
+flex-direction: column;
+text-align: center;
+justify-content: center;
+align-items: center;
+    }
+    .checkout_section .btn_continue_chekout{
+width: 100%;
+    }
+    .checkout_section .box_coloring_bg_checkout.secondr_option_padding{
+margin-top: 30px;
+    }
+    .careers_page .carosel_img {
+        z-index: 100;
+        overflow-y: visible;
+        margin-bottom: 420px;
+    }
+    
 }
 
 @media (min-width:576px) and (max-width:768px) {
+    .box_stephen_joe{
+margin: 30px 0px;
+    }
+    .careers_page .carosel_img {
+        z-index: 100;
+        overflow-y: visible;
+        margin-bottom: 600px;
+    }
+    .checkout_section .form_group_checkout{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+            }
+            .checkout_section .btn_continue_chekout{
+        width: 100%;
+            }
+            .checkout_section .box_coloring_bg_checkout.secondr_option_padding{
+        margin-top: 40px;
+            }
+            .checkout_section .box_coloring_bg_checkout{
+margin-top: 10px;
+margin-bottom: 40px;
+            }
+
+
     .blog_nav_menu .nav{
         display: grid;
         grid-template-columns: repeat(2,1fr);
@@ -61,6 +107,58 @@
 /* mobile all responsive */
 
 @media (max-width:576px){
+
+    .sevices_provides_section .box_tb_border {
+        padding: 40px 0px;
+        text-align: center;
+    }
+    .sevices_provides_section .box_tb_border2 {
+        padding: 40px 0px;
+        text-align: center;
+    }
+    .section_client_reviews .client_reviews {
+        color: var(--whitecolor);
+        font-weight: 700;
+        font-size: 40px;
+        padding: 10px 10px;
+        text-align: center;
+    }
+    .section_client_reviews{
+        padding: 20px 0px;
+    }
+    .section_client_reviews .box_align_text {
+        border-left: 4px solid var(--background-btn);
+        padding-left: 20px;
+        padding-right: 0px;
+    }
+  
+    .checkout_section .form_group_checkout{
+        display: flex;
+        flex-direction: column;
+      width: 100%;
+            }
+            .checkout_section .validate_btn { 
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 10px 0px;
+            }
+            .checkout_section .btn_continue_chekout{
+        width: 100%;
+            }
+            .checkout_section .box_coloring_bg_checkout.secondr_option_padding{
+        margin-top: 40px;
+            }
+            .checkout_section .box_coloring_bg_checkout{
+margin-top: 10px;
+margin-bottom: 40px;
+            }
+            .checkout_section .box_card_heading {
+                padding: 50px 20px;
+                font-weight: 700;
+                text-align: center;
+                width: 100%;
+            }
 
     .manage_order_section .nav-tabs {
         display: flex;
@@ -120,9 +218,13 @@
     .careers_page .btn_career_apply{
         width: 100%;
     }
+    .careers_page {
+       margin-bottom: 10px ;
+    }
     .careers_page .container_fluid_career{
-        padding: 170px 0px;
+        top: -20px;
         overflow-x: hidden;
+        position: relative;
     }
     .modal_section .modal-dialog {
         max-width: 100%;
@@ -190,6 +292,10 @@ padding: 0px;
         text-align: center;
         padding: 15px 10px;
     }
+    .footer-logo{
+        text-align: center;
+        padding: 30px 0px;
+    }
 }
 
 @media (max-width:992px){
@@ -209,7 +315,7 @@ padding: 0px;
     .quit_contest  .btn_quiz{
         width: 100%;
     }
-    .header .navbar .navbar-nav .nav-item.active .nav-link {
+    .header .navbar .navbar-nav .nav-item.signup .nav-link {
 
         padding: auto;
         border-radius: 8px;

@@ -4,6 +4,7 @@
   --bg-lightcolor: #f5f8fd;
   --blackcolor: #141414;
   --whitecolor: #fff;
+  --header_link:#55627c;
 }
 
 li {
@@ -34,9 +35,10 @@ a {
   font-size: 1.25rem;
   line-height: 1;
   background-color: var(--background-btn);
-
+outline: none;
+box-shadow: none;
   border: 1px solid var(--background-btn);
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .navbar-toggler-icon {
@@ -59,22 +61,38 @@ a {
 }
 
 .header .navbar .navbar-nav .nav-item .nav-link {
-  color: var(--background-main);
+  color: var(--header_link);
   text-transform: capitalize;
   font-weight: 500;
+  margin-left: 25px;
 }
 
 .header .navbar .navbar-nav .nav-item.active .nav-link {
-  background-color: var(--background-btn);
-  color: var(--whitecolor);
+
+  color: #8a8a8a;
   padding: auto;
   border-radius: 8px;
 }
+.header .navbar .navbar-nav .nav-item.signup .nav-link {
 
+ background-color: var(--background-btn);
+ color: var(--whitecolor);
+  padding: auto;
+  border-radius: 8px;
+}
+.header .dropdown-menu .dropdown-item.active {
+border-left: 4px solid var(--background-main);
+background-color: transparent !important;
+color: var(--blackcolor);
+}
+.header .dropdown-menu {
+  text-transform: capitalize;
+  font-weight: 500;
+}
 .header .navbar-brand {
   color: var(--whitecolor);
   position: relative;
-  left: 40%;
+  left: 50%;
   text-transform: capitalize;
   font-weight: 500;
 }
@@ -89,10 +107,10 @@ a {
   top: -50px;
   background-color: var(--background-btn);
   color: var(--whitecolor);
-  padding: 50px;
+  padding: 50px 60px;
   z-index: 0;
-  border-bottom-left-radius: 25px;
-  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 35px;
+  border-bottom-right-radius: 35px;
 }
 
 /* this si floatin_icon */
@@ -112,6 +130,7 @@ a {
   align-items: center;
   box-shadow: 2px 2px 3px #999;
   z-index: 100;
+
 }
 
 .floating_icon .float i {
@@ -166,8 +185,6 @@ a {
 
 .dash_services {
   background-color: var(--bg-lightcolor);
-  padding-top: 100px;
-  padding-bottom: 40px;
   text-transform: capitalize;
 }
 
@@ -189,7 +206,6 @@ a {
 
 .sevices_provides_section {
   background-color: var(--bg-lightcolor);
-  padding: 50px 0px;
   text-transform: capitalize;
 }
 
@@ -565,31 +581,42 @@ a {
 
 /* 
      this is career page */
-.dropdown-menu {
-  text-transform: capitalize;
+
+.back_img_full .img{
+  width: 100%;
+  object-fit: contain;
 }
 .careers_page {
-  margin: 100px 0px;
+padding: 20px 0px;
+overflow-x: hidden;
+margin-bottom: 150px;
+transition: all 0.5s;
 }
 
 .careers_page .carosel_img {
   z-index: 100;
   overflow-y: visible;
+  margin-bottom: 50px;
 }
 .careers_page .carousel-inner {
   position: relative;
   width: 100%;
-  overflow: scroll;
+
 }
 .careers_page .container_fluid_career {
-  padding: 50px;
-  position: absolute;
-  top: 0px;
   width: 100%;
   max-width: 100%;
+  position: absolute;
+  top: 230px;
+  padding: 20px;
 }
 .careers_page .career_form_box {
   background-color: var(--whitecolor);
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+ 
+
 }
 .careers_page .career_form_box .nav-tabs {
   background-color: #273b5e;
@@ -1291,6 +1318,88 @@ a:hover {
   place-content: center;
   margin-left: -10px;
 }
+
+/* thi is profile page */
+.dashbord_profile{
+padding: 100px 0px;
+}
+.box_stephen_joe{
+  background-color: #273b5e;
+  padding: 20px;
+  border-radius: 20px;
+  color: var(--whitecolor);
+}
+.box_stephen_joe .img_position{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+position: relative;
+top: -60px;
+}
+.box_stephen_joe .img_position .rounded-circle{
+  width: 100px;
+  height: 100px;
+}
+.box_stephen_joe .img_position .text_img{
+  font-weight: 600;
+  font-size: 22px;
+  text-transform: capitalize;
+  margin: 10px 0px;
+}
+.box_stephen_joe .text_align_center{
+  text-align: center;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+.box_stephen_joe .email_div{
+  font-weight: 500;
+  font-size: 18px;text-transform: capitalize;
+  text-align: center;
+  margin: 25px 0px;
+}
+.box_stephen_joe .box_alix_left{
+  background-color: #68b981;
+  padding: 20px;
+  border-radius: 20px;
+  color: var(--whitecolor);
+  text-transform: capitalize;
+}
+.box_stephen_joe .box_alix_left .heading{
+  font-weight: 620;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+.box_stephen_joe .text_align_left{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  margin: 10px 0px;
+}
+.box_stephen_joe .text_align_left .img{
+  width: 30px;
+
+}
+.box_stephen_joe .text_price{
+  font-weight: 600;
+  font-size: 18px;
+  text-align: end;
+}
+.form_group_of_profile{
+  margin-top: 20px;
+}
+.form_group_of_profile label{
+font-weight: 500;
+font-size: 18px;
+color: var(--blackcolor);
+text-transform: capitalize;
+}
+.form_group_of_profile  .control_field{
+  background-color: #f1f1f1;
+  border: none;
+  height: 60px;
+  border-radius: 15px;
+}
 /* this is tip page  */
 
 .section_tip_page .box_radius_white {
@@ -1473,7 +1582,61 @@ text-align: center;
 margin: 30px 0px;
 padding: 5px 100px;
 }
+.checkout_section .cart_box_table{
+  margin-top: 30px;
+}
+.checkout_section .quantity{
+  display: flex;
+  background-color: var(--bg-lightcolor);
+  border-radius: 8px;
+}
+.checkout_section .quantity #quantity{
+max-width: 30px;
+  border: none;
+  text-align: center;
+  background-color: var(--bg-lightcolor);
+}
+.checkout_section .quantity .plus-btn{
+  font-weight: 600;
+  font-size: 15px;
+  color: var(--background-btn);
+}
+.checkout_section .quantity .minus-btn{
+  font-weight: 600;
+  font-size: 15px;
+  color: var(--background-btn);
+}
+.checkout_section .quantity .btn:hover{
+  color: var(--background-btn);
+}
+.checkout_section .word_wrap_table{
+word-break: break-all;
 
+}
+.checkout_section .btn_detail_img_table{
+font-weight: 500;
+color: var(--background-btn);
+}
+.checkout_section .btn_detail_img_table:hover{
+  color: var(--background-btn);
+}
+
+.checkout_section .another_table_txt_bottom{
+  margin-top: 50px;
+}
+.checkout_section .another_table_txt_bottom .heading_parent{
+  font-weight: 700;
+  text-transform: capitalize;
+  font-size: 18px;
+  margin: 20px 0px;
+  font-weight: 420;
+}
+.checkout_section .another_table_txt_bottom  .text_child .wrap_padding{
+padding-top: 10px;
+padding-left: 15px;
+padding-right: 50px;
+font-weight: 420;
+}
 /* this si contactus page */
 .conatct_us_section {
   margin-top: 100px;
@@ -1670,13 +1833,13 @@ padding: 5px 100px;
 }
 .footer .footer-nav .nav-item .nav-link.footer-heading {
   text-transform: capitalize;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 900;
 }
 .footer .footer-nav .nav-item .nav-link {
   color: var(--blackcolor);
   font-weight: 500 !important;
-  font-size: 14px;
+  font-size: 12px;
 }
 .footer .nav-link {
   font-weight: 500 !important;
