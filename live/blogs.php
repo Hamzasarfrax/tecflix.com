@@ -8,7 +8,9 @@
 		require_once("user_content/css.php");
 		?>
 		
-		
+		<?php
+require_once("user_content/style.php")
+?>
 	</head>
 	<body>
 		<?php
@@ -21,15 +23,9 @@
 			<section class="blog_img">
 				<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
 					<div class="carousel-inner">
-						<div class="carousel-item active">
-							<img src="../images/demo.avif" class="d-block w-100" alt="...">
-						</div>
-						<div class="carousel-item">
-							<img src="../images/demo.avif" class="d-block w-100" alt="...">
-						</div>
-						<div class="carousel-item">
-							<img src="../images/demo.avif" class="d-block w-100" alt="...">
-						</div>
+					<img src="../images/sucessfulman.webp" class=" w-100" alt="...">
+						
+						
 					</div>
 				</div>
 				<div class="blog_nav_menu">

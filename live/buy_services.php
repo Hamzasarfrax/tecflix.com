@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+  <title>Buy Services</title>
   <?php
 require_once("user_content/header.php")
 ?>
   <?php
 require_once("user_content/css.php")
+?>
+    <?php
+require_once("user_content/style.php")
 ?>
   </head>
   <body>
@@ -14,11 +18,14 @@ require_once("user_content/css.php")
 require_once("user_content/top_menu.php")
 ?>
  
-   <main>
+  
+ <main class="main_buyservices">
     <section class="buy_services">
-      <div class="heading-main">buy services</div>
-      <div class="row bg_row-service">
+      <div class="heading-main px-2">buy services</div>
+    
+      <div class="row bg_row-service nav nav-tabs">
         <div class="col-sm-4">
+         <a href="" class="nav-link active">
           <div class="box_services_border active">
             <div class="icons_services_img">
               <i class="fa-solid fa-desktop"></i>
@@ -26,22 +33,27 @@ require_once("user_content/top_menu.php")
             </div>
             <div class="text_serives_box">website design</div>
           </div>
+         </a>
         </div>
         <div class="col-sm-4">
+         <a href="" class="nav-link">
           <div class="box_services_border">
             <div class="icons_services_img">
               <img src="../images/web-hosting.svg" alt="" class="img" />
             </div>
             <div class="text_serives_box">web hosting packages</div>
           </div>
+         </a>
         </div>
         <div class="col-sm-4">
-          <div class="box_services_border">
-            <div class="icons_services_img">
-              <img src="../images/graphic-designing.svg" alt="" class="img" />
-            </div>
-            <div class="text_serives_box">graphic design</div>
+       <a href="" class="nav-link">
+        <div class="box_services_border">
+          <div class="icons_services_img">
+            <img src="../images/graphic-designing.svg" alt="" class="img" />
           </div>
+          <div class="text_serives_box">graphic design</div>
+        </div>
+       </a>
         </div>
       </div>
 
@@ -49,7 +61,7 @@ require_once("user_content/top_menu.php")
       <div class="container ">
           <div class="margin_contain">
        <div class="row targetting_child">
-          <div class="">
+          <button class="btn bt_editing">
                <div class="box_services_colr first">
                  <div class="content_service">
                    <img src="../images/flyer.svg" alt="" />
@@ -58,8 +70,8 @@ require_once("user_content/top_menu.php")
                     logo
                  </div>
                </div>
-             </div>
-             <div class="">
+             </button>
+             <button class="btn bt_editing">
                <div class="box_services_colr second">
                  <div class="content_service">
                    <img src="../images/flyer.svg" alt="" />
@@ -68,9 +80,9 @@ require_once("user_content/top_menu.php")
                     banner
                  </div>
                </div>
-             </div>
+             </button>
 
-             <div class="">
+             <button class="btn bt_editing">
                <div class="box_services_colr third">
                  <div class="content_service">
                    <img src="../images/flyer.svg" alt="" />
@@ -79,9 +91,9 @@ require_once("user_content/top_menu.php")
                     flyer
                  </div>
                </div>
-             </div>
+             </button>
 
-             <div class="">
+             <button class="btn bt_editing">
                <div class="box_services_colr four">
                  <div class="content_service">
                    <img src="../images/Youtube.svg" alt="" />
@@ -90,9 +102,9 @@ require_once("user_content/top_menu.php")
                   youtube thumbnail
                  </div>
                </div>
-             </div>
+             </button>
 
-             <div class="">
+             <button class="btn bt_editing">
                <div class="box_services_colr five">
                  <div class="content_service">
                    <img src="../images/flyer.svg" alt="" />
@@ -102,9 +114,9 @@ require_once("user_content/top_menu.php")
                     <br>cover
                    </div>
                </div>
-             </div>
+             </button>
 
-             <div class="">
+             <button class="btn bt_editing">
                <div class="box_services_colr six">
                  <div class="content_service">
                    <img src="../images/Roll-up-banner.svg" alt="" />
@@ -113,9 +125,9 @@ require_once("user_content/top_menu.php")
                     roll up banner
                    </div>
                </div>
-             </div>
+             </button>
 
-             <div class="">
+             <button class="btn bt_editing">
                <div class="box_services_colr seven">
                  <div class="content_service">
                    <img src="../images/flyer.svg" alt="" />
@@ -124,9 +136,9 @@ require_once("user_content/top_menu.php")
                     banner
                    </div>
                </div>
-             </div>
+             </button>
 
-             <div class="">
+             <button class=" btn bt_editing">
                <div class="box_services_colr eight">
                  <div class="content_service">
                    <img src="../images/flyer.svg" alt="" />
@@ -135,7 +147,7 @@ require_once("user_content/top_menu.php")
                logon
                    </div>
                </div>
-             </div>
+             </button>
        </div>
      </div>
 </div>
@@ -144,37 +156,42 @@ require_once("user_content/top_menu.php")
           <div class="container">
                <div class="row">
                     <div class="col-sm-4">
-                         <div class="box_services_border">
-                              <div class="icons_services_img">
-                                <img src="../images/Domain-registration.svg" alt="" class="img" />
-                              </div>
-                              <div class="text_serives_box">domain registration</div>
+                        <a href="">
+                          <div class="box_services_border">
+                            <div class="icons_services_img">
+                              <img src="../images/Domain-registration.svg" alt="" class="img" />
                             </div>
+                            <div class="text_serives_box">domain registration</div>
+                          </div>
+                        </a>
                     </div>
                     <div class="col-sm-4">
-                         <div class="box_services_border">
-                              <div class="icons_services_img">
-                                <img src="../images/payment-gateway-solution.svg" alt="" class="img" />
-                              </div>
-                              <div class="text_serives_box">
-                                   payment gateway solution
-                              </div>
-                            </div>
+                  <a href="">
+                    <div class="box_services_border">
+                      <div class="icons_services_img">
+                        <img src="../images/payment-gateway-solution.svg" alt="" class="img" />
+                      </div>
+                      <div class="text_serives_box">
+                           payment gateway solution
+                      </div>
+                    </div>
+                  </a>
                     </div>
                     <div class="col-sm-4">
-                         <div class="box_services_border">
-                              <div class="icons_services_img">
-                                <img src="../images/DIGITAL-MARKETING.svg" alt="" class="img" />
-                              </div>
-                              <div class="text_serives_box">digital marketing</div>
-                            </div>
+                    <a href="">
+                      <div class="box_services_border">
+                        <div class="icons_services_img">
+                          <img src="../images/DIGITAL-MARKETING.svg" alt="" class="img" />
+                        </div>
+                        <div class="text_serives_box">digital marketing</div>
+                      </div>
+                    </a>
                     </div>
                </div>
           </div>
       </div>
     </section>
    </main>
-
 
 
 

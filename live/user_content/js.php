@@ -7,15 +7,42 @@
 
 
 
-		$('.your').slick({
-		  dots:true,
-		  infinite: false,
-		speed: 300,
-		slidesToShow: 5,
-		slidesToScroll: 1,
-		
-		
-		});
+$('.your').slick({
+      dots:true,
+      infinite: false,
+  speed: 300,
+  slidesToShow: 5,
+  slidesToScroll: 1,
+  responsive: [
+
+  {
+      breakpoint: 1190,
+      settings: {
+        arrows: true,
+      
+        slidesToShow: 3
+      }
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: true,
+        
+        slidesToShow: 2
+      }
+    },
+    {
+      breakpoint: 570,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 1
+      }
+    }
+  ]
+
+});
 		
 		$('.little_slider').slick({
 		  dots:true,

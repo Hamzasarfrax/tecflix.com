@@ -21,7 +21,7 @@
             <a class="nav-link " href="blogs">blogs</a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link" href="../withlogin/contactform.html">contact us</a>
+            <a class="nav-link" href="contact_us">contact us</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

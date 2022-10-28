@@ -1,6 +1,6 @@
 <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 		<title>Home</title>
-		<meta property="og:title" content="New order" />
+		<meta property="og:title" content="" />
 		
 
 <meta charset="utf-8" />

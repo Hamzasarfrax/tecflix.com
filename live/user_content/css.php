@@ -4,21 +4,6 @@
 			integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
 			crossorigin="anonymous"
 			/>
-		<link
-			rel="stylesheet"
-			href="https://cdn.apanel.link/custom-data/fs2/fonts3.css"
-			/>
-		
-		<link href="/assets/v2.91/style.css" rel="stylesheet" />
-		<link
-			href="https://cdn.apanel.link/main/fa5151/css/all.min.css"
-			rel="stylesheet"
-			/>
-		
-		<link
-			href="https://cdn.apanel.link/main/css/global.main.v22.17.04.css"
-			rel="stylesheet"
-			/>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 		<link rel="stylesheet" href="../css/style.css" />
 		<link rel="stylesheet" href="../css/responsive.css">
