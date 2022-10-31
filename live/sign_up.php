@@ -1,60 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-    <title>Signup</title>
-    <meta property="og:title" content="New order" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.apanel.link/custom-data/fs2/fonts3.css"
-    />
-    <meta charset="utf-8" />
-    <meta http-equiv="cache-control" content="no-cache" />
-    <meta http-equiv="expires" content="0" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="keywords" content="" />
-    <meta name="description" content="" />
-    <meta property="og:description" content="" />
-    <link href="/assets/v2.91/style.css" rel="stylesheet" />
-    <link
-      href="https://cdn.apanel.link/main/fa5151/css/all.min.css"
-      rel="stylesheet"
-    />
-    <link rel="dns-prefetch" href="//cdn.apanel.link" />
-    <link
-      href="https://cdn.apanel.link/main/css/global.main.v22.17.04.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="../css/responsive.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <?php
+require_once("user_content/header.php")
+?>
+  <?php
+require_once("user_content/css.php")
+?>
+
+<style>
+  .sign_up_section .panel-body{
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+}
+.sign_up_section .form_group_signip {
+  margin-top: 20px;
+}
+.sign_up_section .form_group_signip label {
+  font-weight: 500;
+  text-transform: capitalize;
+  font-size: 18px;
+float: left !important;
+}
+.sign_up_section  .sucessfull{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sign_up_section  .sucessfull .img{
+  width: 50px;
+  margin: auto;
+  padding:20px 0px;
+}
+</style>
   </head>
   <body>
-<main>
+
+  <main>
   <section class="sign_up_section">
     <div class="container">
       <div class="row">
-        <button
-          type="button"
-          class="btn btn-primary"
-          data-toggle="modal" data-target="#signupmoadl"
-        >
-          Launch static backdrop modal
-        </button>
+   
 
         <!-- Modal -->
         <div class="modal fade" id="signupmoadl" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -168,11 +156,12 @@
                         
                         <div class="panel panel-primary setup-content" id="step-3">
                              
-                             <div class="PANNEL_HEADING text-center">
+                           <div class="sucessfull">
+                           <div class="PANNEL_HEADING text-center">
                                THANK YOU
                              </div>
                                <div class="panel-body text-center">
-                                  <img src="../images/registartion-complete.svg" alt="">
+                                  <img src="../images/registartion-complete.svg" alt="" class="img">
                                   <div class="text_sucessful mt-3 mb-3">
                                    registration
                                    <br>
@@ -184,6 +173,7 @@
                                </div>
                            </div>
                         
+                           </div>
                        
                     </form>
                 </div>
@@ -204,65 +194,17 @@
     </div>
   </section>
 </main>
+
+
+        <?php
+require_once("user_content/footer.php")
+?>
   </body>
 
-  <script>
-     $(document).ready(function () {
-     
-     var navListItems = $('div.setup-panel div a'),
-         allWells = $('.setup-content'),
-         allNextBtn = $('.nextBtn');
-     
-     allWells.hide();
-     
-     navListItems.click(function (e) {
-         e.preventDefault();
-         var $target = $($(this).attr('href')),
-             $item = $(this);
-     
-         if (!$item.hasClass('disabled')) {
-             navListItems.removeClass('btn-success').addClass('btn-default');
-             $item.addClass('btn-success');
-             allWells.hide();
-             $target.show();
-             $target.find('input:eq(0)').focus();
-         }
-     });
-     
-     allNextBtn.click(function () {
-         var curStep = $(this).closest(".setup-content"),
-             curStepBtn = curStep.attr("id"),
-             nextStepWizard = $('div.setup-panel div a[href="#' + curStepBtn + '"]').parent().next().children("a"),
-             curInputs = curStep.find("input[type='text'],input[type='url']"),
-             isValid = true;
-     
-         $(".form-group").removeClass("has-error");
-         for (var i = 0; i < curInputs.length; i++) {
-             if (!curInputs[i].validity.valid) {
-                 isValid = false;
-                 $(curInputs[i]).closest(".form-group").addClass("has-error");
-             }
-         }
-     
-         if (isValid) nextStepWizard.removeAttr('disabled').trigger('click');
-     });
-     
-     $('div.setup-panel div a.btn-success').trigger('click');
-     });
-       </script>
-  <script
-    src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
-    integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
-    crossorigin="anonymous"
-  ></script>
+<?php
+require_once("user_content/js.php")
+?>
+ 
+
+ 
 </html>

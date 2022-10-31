@@ -28,8 +28,8 @@
             others
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item active" href="../withlogin/aboutus.html">about us</a>
-              <a class="dropdown-item" href="../withlogin/careers.html">careers</a>
+              <a class="dropdown-item active" href="About_us">about us</a>
+              <a class="dropdown-item" href="Careers">careers</a>
               <a class="dropdown-item" href="#">copmpany portfolio</a>
               <a class="dropdown-item" href="../withlogin/quitcontest.html">mothly quiz contest</a>
               <a class="dropdown-item" href="#">terms and conditions</a>
@@ -39,7 +39,10 @@
             <a class="nav-link" href="#">login</a>
           </li>
           <li class="nav-item signup">
-            <a class="nav-link" href="#">sign up</a>
+            <a class="nav-link" 
+            type="button"
+                class="btn btn-primary"
+                data-toggle="modal" data-target="#signupmoadl">sign up</a>
           </li>
         </ul>
       </div>

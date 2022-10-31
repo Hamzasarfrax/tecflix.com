@@ -18,9 +18,7 @@ require_once("user_content/css.php")
   <?php
 require_once("user_content/top_menu.php")
 ?>
-    <?php
-require_once("user_content/style.php")
-?>
+
 
  
 <main class="main_contact"> 
@@ -92,7 +90,9 @@ require_once("user_content/style.php")
 
      
 
-         
+  <?php
+require_once("sign_up.php")
+?>     
     
         <?php
 require_once("user_content/footer.php")

@@ -196,7 +196,9 @@ require_once("user_content/top_menu.php")
 
 
 
-
+   <?php
+require_once("sign_up.php")
+?>
   </body>
 <?php
 require_once("user_content/footer.php")

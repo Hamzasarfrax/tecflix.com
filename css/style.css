@@ -959,6 +959,11 @@ transition: all 0.5s;
   display: flex;
   width: 100%;
 }
+.sign_up_section .panel-body{
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+}
 .sign_up_section .form_group_signip {
   margin-top: 20px;
 }
@@ -966,6 +971,7 @@ transition: all 0.5s;
   font-weight: 500;
   text-transform: capitalize;
   font-size: 18px;
+float: left !important;
 }
 .sign_up_section .form_sognup_contron {
   height: 50px;
@@ -1056,6 +1062,17 @@ a:hover {
 }
 .sign_up_section .btn_sign_up {
   text-align: center;
+}
+.sign_up_section  .sucessfull{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.sign_up_section  .sucessfull .img{
+width: 50px;
+margin: auto;
+padding:20px 0px;
 }
 
 /* this is quiz-contestpage */
@@ -1802,7 +1819,9 @@ font-weight: 420;
 .section_main-blog {
   overflow-x: hidden !important;
 }
-
+.section_main-blog .main_bg_img .img{
+  width: 100% !important;
+}
 .blog_nav_menu {
   background-color: #273b5e;
   text-transform: capitalize;
@@ -1812,6 +1831,9 @@ font-weight: 420;
 .blog_nav_menu .nav-tabs .nav-link {
   color: var(--whitecolor);
   font-weight: 500;
+}
+.blog_nav_menu .nav-tabs .nav-link.active{
+  border-left: 4px solid var(--background-main);
 }
 
 .blog_nav_menu .nav-tabs {
@@ -1850,19 +1872,41 @@ font-weight: 420;
 
 .section_blog .blog_box .btn_card_blog {
   background-color: var(--whitecolor);
-  color: var(--background-main);
+  color: var(--background-btn);
   text-transform: capitalize;
+  font-weight: 500;
+  text-align: left;
+  padding: 0px;
+  margin: 10px;
 }
 
 .section_blog .blog_box .card {
   border-radius: 20px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  width: 100%;
+  border-color: #fff;
 }
-
+.section_blog .blog_box .card-body h5{
+margin: 60px 0px 10px 0px;
+font-weight: 500;
+text-transform: capitalize;
+}
+.section_blog .blog_box .card-body .opacity-text{
+  opacity: 0.5;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.card-text{
+  text-transform: capitalize;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
 .section_blog .blog_filter {
   margin-top: 50px;
   background-color: var(--bg-lightcolor);
   padding: 20px;
+  border-radius: 10px;
 }
 
 .section_blog .btn-search {
@@ -1873,6 +1917,9 @@ font-weight: 420;
 .section_blog .text_blog_heading {
   text-transform: capitalize;
   font-weight: 700;
+  margin: 15px 0px;
+  font-size: 20px;
+  opacity: 1 !important;
 }
 
 .section_blog .blog_nav {
@@ -1890,11 +1937,35 @@ font-weight: 420;
   list-style-type: none;
   text-transform: capitalize;
   color: var(--blackcolor);
+  padding: 0px;
+  font-weight: 500;
+  opacity: 0.6;
 }
 
 .section_blog .popular_tags_nav {
   text-transform: capitalize;
   padding: 0px;
+ display: flex;
+display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 10px;
+}
+#text_tags_heading{
+  text-transform: capitalize;
+  font-weight: 700;
+  margin: 30px 0px;
+  font-size: 18px;
+  opacity: 1 !important;
+
+}
+.section_blog .popular_tags_nav .nav-link{
+  background-color:#e9f2f9;
+  border-radius: 10px;
+  color: #141414;
+  font-weight: 400;
+  font-size: 12px;
+  padding: 10px;
+
 }
 
 .section_blog .popular_tags_nav .nav-item {
@@ -1929,7 +2000,31 @@ font-weight: 420;
 .section_blog .box_img_blog .rounded {
   border-radius: 1.25rem !important;
 }
-
+.section_blog .blog_text{
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.section_blog .form-control.search{
+  height: 45px;
+  border-radius: 10px;
+  border-top-right-radius: 10px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.section_blog .form-control.search:focus .input-group span{
+  position: absolute;
+  left: 90%;
+  top: 15px;
+}
+.section_blog .input-group>.custom-select:not(:last-child), .input-group>.form-control:not(:last-child) {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.input-group span{
+  position: absolute;
+  left: 90%;
+  top: 15px;
+}
 /* this is footer css */
 .footer {
   background-color: var(--bg-lightcolor);

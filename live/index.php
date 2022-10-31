@@ -16,7 +16,7 @@ require_once("user_content/style.php")
 		<?php
 		include("user_content/top_menu.php"); 
 		?>
-		
+
 		<main class="main_homepage">
   <section class="dashbord_bg_img">
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
@@ -289,7 +289,9 @@ require_once("user_content/style.php")
   </section>
 </main>	
 
-		
+<?php
+require_once("sign_up.php")
+?>	
 		<?php
 		require_once("user_content/footer.php");
 		?>
