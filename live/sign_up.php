@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+  <title>Sign_Up</title>
   <?php
 require_once("user_content/header.php")
 ?>

@@ -31,7 +31,7 @@
               <a class="dropdown-item active" href="About_us">about us</a>
               <a class="dropdown-item" href="Careers">careers</a>
               <a class="dropdown-item" href="#">copmpany portfolio</a>
-              <a class="dropdown-item" href="../withlogin/quitcontest.html">mothly quiz contest</a>
+              <a class="dropdown-item" href="Quiz_contest">mothly quiz contest</a>
               <a class="dropdown-item" href="#">terms and conditions</a>
             </div>
           </li>

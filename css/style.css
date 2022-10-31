@@ -1137,10 +1137,94 @@ padding:20px 0px;
 .quiz_contest_section .icon_img i {
   font-size: 25px;
 }
+.quiz_contest_section .btn_share:hover{
+  color:var(--blackcolor);
+}
+
+
+/* this is services page */
+.section_services{
+
+}
+.for_group_search .form-control{
+  border-radius: 0px;
+  width: 100%;
+}
+.for_group_search{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.services_btn_box{
+  margin: 20px 0px;
+}
+.services_btn_box .btn_box{
+  width: 100%;
+}
+.services_btn_box .btn_box .btn_services{
+  background-color: var(--bg-lightcolor);
+  color: var(--blackcolor);
+  padding: 10px;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 15px;
+  border-radius: 10px;
+  width: 100%;
+}
+.services_btn_box .btn_box .btn_services.active{
+  border-left: 4px solid var(--background-main);
+ 
+}
+.services_btn_box{
+  padding: 0px;
+}
+.btn_services:hover{
+  color: var(--blackcolor);
+}
+.box_border{
+  padding: 20px 0px;
+  border-top: 2px solid #dee2e6;
+  border-bottom: 2px solid #dee2e6;
+  width: 100%;
+}
+.services_nav{
+display: flex;
+padding: 0px;
+text-transform: capitalize;
+font-weight: 500;
+
+}
+.services_nav .nav-item{
+  list-style-type: none;
+  color: var(--blackcolor);
+}
+.services_nav .nav-item .nav-link{
+
+  color: var(--blackcolor);
+}
+.box_img_carousel{
+padding: 20px;
+}
+.box_img_carousel .navs_box_img{
+display: flex;
+}
+.box_img_carousel .navs_box_img .nav-link{
+color: var(--background-main);
+  font-weight: 490;
+  text-transform: capitalize;
+}
+.text_heading_bx_img{
+  text-transform: capitalize;
+  font-weight: 800;
+  padding-left: 50px;
+
+}
 
 /* this is sidebar of login */
 .login_dashbord {
   overflow-x: hidden;
+  position: fixed;
+  z-index: 100;
 }
 .sider_dashbord_login .side_nav {
   position: fixed;
@@ -1148,10 +1232,28 @@ padding:20px 0px;
   background-color: var(--bg-lightcolor);
   height: 100vh;
 
-  transition: all 0.5s;
+  transition: all 0.2s;
   text-transform: capitalize;
   z-index: 100;
+ overflow-y: auto;
+  overflow-x: hidden;
 }
+.side_nav::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+.side_nav::-webkit-scrollbar-track {
+  box-shadow: transparent; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+.side_nav::-webkit-scrollbar-thumb {
+  background: #dee2e6; 
+  border-radius: 10px;
+}
+
 .sider_dashbord_login .sidebar {
   margin-top: 100px;
   margin-bottom: 50px;
@@ -1175,6 +1277,9 @@ padding:20px 0px;
   padding: 10px;
   cursor: pointer;
   font-size: 20px;
+}
+.sider_dashbord_login .container_wrapper{
+background-color: red;
 }
 .sider_dashbord_login .side_nav.active .sidebar {
 }
@@ -1219,9 +1324,11 @@ padding:20px 0px;
 }
 
 /* this is wrapperof text */
-
+.container_wrapper{
+  padding-left: 100px;
+}
 .login_dashbord .text-heading {
-  margin: 20px 0px;
+  margin: 40px 10px;
   text-transform: capitalize;
   font-weight: 500;
 }
@@ -1511,6 +1618,73 @@ text-transform: capitalize;
   height: 60px;
   border-radius: 15px;
 }
+
+/* this si setting page */
+.section_setting{
+  width: 100%;
+
+  padding: 20px;
+}
+.section_setting .setting_box{
+  background-color: var(--bg-lightcolor);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  
+}
+.section_setting .setting_box .nav-tabs{
+  background-color: #273b5e;
+  color: var(--whitecolor);
+  text-transform: capitalize;
+  width: 100%;
+  display: flex;
+  gap: 100px;
+ 
+ 
+
+}
+.section_setting .setting_box .nav-tabs .nav-link.active{
+  border-left: 4px solid var(--background-main);
+}
+.section_setting .setting_box .nav-tabs .nav-link{
+  color: var(--whitecolor);
+  text-transform: capitalize;
+  font-weight: 700;
+
+}
+.section_setting .form_spacing_setting{
+margin: 50px 50px;
+}
+.form_spacing_setting{
+
+}
+.section_setting .form_group_setting{
+  margin-top: 20px;
+}
+.section_setting .form_group_setting label{
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 18px;
+}
+.section_setting .form_group_setting .form-control{
+  height: 65px;
+  border-radius: 10px;
+  border-color: rgb(236, 236, 236);
+  box-shadow: rgba(224, 231, 237, 0.2) 0px 8px 24px;
+}
+.section_setting  .form_group_setting .textArea_setting{
+  max-height: 100px !important;
+  height: 100px;
+  min-height: 100px;
+}
+.section_setting .setting_frm_btn{
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+.section_setting .setting_frm_btn .btn_setting{
+  border-radius: 10px;
+  padding: 10px 80px;
+  font-weight: 500;
+}
 /* this is tip page  */
 
 .section_tip_page .box_radius_white {
@@ -1625,7 +1799,8 @@ border-top-right-radius: 20px;
 
  /* this is checkout page */
 .checkout_section{
-margin: 100px 0px;
+padding-top: 100px;
+padding-bottom: 150px;
 text-transform: capitalize;
 }
 .checkout_section .box_coloring_bg_checkout{
@@ -1683,6 +1858,8 @@ text-transform: capitalize;
 }
 .checkout_section .form_checkout{
      height: 32px;
+     width: 150px;
+     
 }
 .checkout_section .btn_continue_chekout{
 background-color: var(--background-btn);
@@ -1722,7 +1899,8 @@ max-width: 30px;
 }
 .checkout_section .word_wrap_table{
 word-break: break-all;
-
+font-weight: 500;
+text-transform: capitalize;
 }
 .checkout_section .btn_detail_img_table{
 font-weight: 500;
@@ -1740,13 +1918,18 @@ color: var(--background-btn);
   text-transform: capitalize;
   font-size: 18px;
   margin: 20px 0px;
-  font-weight: 420;
+  font-weight: 500;
+}
+.checkout_section .checckout_img_box_table{
+  display: flex;
+  gap: 20px;
 }
 .checkout_section .another_table_txt_bottom  .text_child .wrap_padding{
 padding-top: 10px;
 padding-left: 15px;
 padding-right: 50px;
-font-weight: 420;
+font-weight:500;
+font-size: 14px;
 }
 /* this si contactus page */
 .conatct_us_section {

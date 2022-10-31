@@ -1,5 +1,5 @@
 <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-		<title>Home</title>
+	
 		<meta property="og:title" content="" />
 		
 
@@ -12,3 +12,10 @@
 <meta name="description" content="" />
 <meta property="og:description" content="" />
 <link rel="dns-prefetch" href="//cdn.apanel.link" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/data.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>

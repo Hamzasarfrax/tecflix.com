@@ -51,274 +51,276 @@
     <script src="https://code.highcharts.com/modules/accessibility.js"></script>
   </head>
   <body>
-    <section class="login_page">
-      <section class="sider_dashbord_login">
-        <div class="side_nav" id="sidebar">
-          <div class="icon_sidebar" onclick="sidebarToggle()">
-            <i class="fa-solid fa-bars"></i>
-          </div>
-          <ul class="sidebar p-0">
-            <li class="nav-items active">
-              <div class="more_menu">
-                <a href="#" class="menu_item">
-                  <div class="menu_icon">
-                    <img src="../images/dashboard.svg" alt="" class="img" />
-                  </div>
-                  <div class="menu_name">Dashboard</div>
-                </a>
-              </div>
-            </li>
-            <li class="nav-items">
-              <div class="more_menu">
-                <a href="#" class="menu_item">
-                  <div class="menu_icon">
-                    <img src="../images/products (2).svg" alt="" class="img" />
-                  </div>
-                  <div class="menu_name">products</div>
-                </a>
-              </div>
-            </li>
-
-            <li class="nav-items">
-              <div class="more_menu">
-                <a href="#" class="menu_item">
-                  <div class="menu_icon">
-                    <img src="../images/order.svg" alt="" class="img" />
-                  </div>
-                  <div class="menu_name">orders</div>
-                </a>
-              </div>
-            </li>
-
-            <li class="nav-items">
-              <div class="more_menu">
-                <a href="#" class="menu_item">
-                  <div class="menu_icon">
-                    <img src="../images/reports.svg " class="img" />
-                  </div>
-                  <div class="menu_name">reports</div>
-                </a>
-              </div>
-            </li>
-            <hr />
-            <li class="nav-items">
-              <div class="more_menu">
-                <a href="#" class="menu_item">
-                  <div class="menu_icon">
-                    <img src="../images/users.svg" class="img" />
-                  </div>
-                  <div class="menu_name">profile</div>
-                </a>
-              </div>
-            </li>
-            <li class="nav-items">
-              <div class="more_menu">
-                <a href="#" class="menu_item">
-                  <div class="menu_icon">
-                    <img src="../images/settings.svg" class="img" />
-                  </div>
-                  <div class="menu_name">settings</div>
-                </a>
-              </div>
-            </li>
-          </ul>
+<main>
+  <section class="login_page">
+    <section class="sider_dashbord_login">
+      <div class="side_nav" id="sidebar">
+        <div class="icon_sidebar" onclick="sidebarToggle()">
+          <i class="fa-solid fa-bars"></i>
         </div>
-      </section>
-      <section class="login_dashbor" style="margin-bottom: 100px">
-        <div class="container container_wrapper">
-          <div class="text-heading">latest orders</div>
-          <div class="row">
-            <div class="col-md-7 table_rad">
-              <div class="table_section">
-                <table class="table">
-                  <thead>
-                    <tr>
-                      <th scope="col" class="main_heading_top">date</th>
-                      <th scope="col" class="main_heading_top">id</th>
-                      <th scope="col" class="main_heading_top">order</th>
-                      <th scope="col" class="main_heading_top">status</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <th scope="row">10/26/2022</th>
-                      <td>25389</td>
-                      <td>
-                        <img
-                          src="../images/demomanimgaes.jpg"
-                          alt=""
-                          class="w-25"
-                        />
-                        Lorem ipsum dolor sit.
-                      </td>
-                      <td>
-                        <button class="btn btn_table">completed</button>
-                      </td>
-                    </tr>
-                    <tr>
-                      <th scope="row">10/26/2022</th>
-                      <td>25389</td>
-                      <td>
-                        <img
-                          src="../images/demomanimgaes.jpg"
-                          alt=""
-                          class="w-25"
-                        />
-                        Lorem ipsum dolor sit.
-                      </td>
-                      <td>
-                        <button
-                          class="btn btn_table"
-                          style="background-color: #e51918"
-                        >
-                          completed
-                        </button>
-                      </td>
-                    </tr>
-                    <tr>
-                      <th scope="row">10/26/2022</th>
-                      <td>25389</td>
-                      <td>
-                        <img
-                          src="../images/demomanimgaes.jpg"
-                          alt=""
-                          class="w-25"
-                        />
-                        Lorem ipsum dolor sit.
-                      </td>
-                      <td>
-                        <button
-                          class="btn btn_table"
-                          style="background-color: #ffc876"
-                        >
-                          completed
-                        </button>
-                      </td>
-                    </tr>
-                    <tr>
-                      <th scope="row">10/26/2022</th>
-                      <td>25389</td>
-                      <td>
-                        <img
-                          src="../images/demomanimgaes.jpg"
-                          alt=""
-                          class="w-25"
-                        />
-                        Lorem ipsum dolor sit.
-                      </td>
-                      <td>
-                        <button
-                          class="btn btn_table"
-                          style="background-color: #ffc876"
-                        >
-                          completed
-                        </button>
-                      </td>
-                    </tr>
-                    <tr>
-                      <th scope="row">10/26/2022</th>
-                      <td>25389</td>
-                      <td>
-                        <img
-                          src="../images/demomanimgaes.jpg"
-                          alt=""
-                          class="w-25"
-                        />
-                        Lorem ipsum dolor sit.
-                      </td>
-                      <td>
-                        <button class="btn btn_table">completed</button>
-                      </td>
-                    </tr>
-                    <tr>
-                      <th scope="row">10/26/2022</th>
-                      <td>25389</td>
-                      <td>
-                        <img
-                          src="../images/demomanimgaes.jpg"
-                          alt=""
-                          class="w-25"
-                        />
-                        Lorem ipsum dolor sit.
-                      </td>
-                      <td>
-                        <button class="btn btn_table">completed</button>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
-            <div class="col-md-5">
-              <div class="box_girl_avtar">
-                <div class="box_img_postion">
-                  <img
-                    src="../images/demomanimgaes.jpg"
-                    alt="Avatar"
-                    class="avatar"
-                  />
-                  <div class="text_heading_img">stephen doe</div>
+        <ul class="sidebar p-0">
+          <li class="nav-items active">
+            <div class="more_menu">
+              <a href="#" class="menu_item">
+                <div class="menu_icon">
+                  <img src="../images/dashboard.svg" alt="" class="img" />
                 </div>
-                <div class="box_with_detail">
-                  <div class="design_color">
-                    <div class="heading_that_design">wallet ballence</div>
-                    <div class="box_design">
-                      <div class="icon_div">
-                        <i class="fa-regular fa-dollar-sign"></i>
-                      </div>
-                      <div class="price_div">980</div>
-                    </div>
-                  </div>
-                  <div class="design_color_sec">
-                    <div class="heading_that_design">
-                      <i class="fa-solid fa-cart-shopping"></i>
-                      total order
-                    </div>
-                    <div class="box_design">
-                      <div class="icon_div">
-                        <i class="fa-regular fa-dollar-sign"></i>
-                      </div>
-                      <div class="price_div">980</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+                <div class="menu_name">Dashboard</div>
+              </a>
             </div>
-          </div>
+          </li>
+          <li class="nav-items">
+            <div class="more_menu">
+              <a href="#" class="menu_item">
+                <div class="menu_icon">
+                  <img src="../images/products (2).svg" alt="" class="img" />
+                </div>
+                <div class="menu_name">products</div>
+              </a>
+            </div>
+          </li>
 
-          <!-- this is container padding -->
-          <div class="high_charts_set">
-            <div class="text_highcharts">order statics</div>
-            <div class="row">
-              <div class="col-sm-7">
-                <figure class="highcharts-figure">
-                  <div id="container"></div>
-                  <p class="highcharts-description"></p>
-                </figure>
-              </div>
-              <div class="col-sm-5">
-                <div class="box_orders">
-                  <div class="text_order">pending orders</div>
-                  <div class="circle_order">
-                    <div class="icon_width">25%</div>
-                  </div>
+          <li class="nav-items">
+            <div class="more_menu">
+              <a href="#" class="menu_item">
+                <div class="menu_icon">
+                  <img src="../images/order.svg" alt="" class="img" />
                 </div>
-
-                <div
-                  class="box_orders"
-                  style="background-color: #377dff; color: #fff !important"
-                >
-                  <div class="text_order">completed orders</div>
-                  <div class="circle_order">
-                    <div class="icon_widthsec">25%</div>
-                  </div>
-                </div>
-              </div>
+                <div class="menu_name">orders</div>
+              </a>
             </div>
-          </div>
-        </div>
-      </section>
+          </li>
+
+          <li class="nav-items">
+            <div class="more_menu">
+              <a href="#" class="menu_item">
+                <div class="menu_icon">
+                  <img src="../images/reports.svg " class="img" />
+                </div>
+                <div class="menu_name">reports</div>
+              </a>
+            </div>
+          </li>
+          <hr />
+          <li class="nav-items">
+            <div class="more_menu">
+              <a href="#" class="menu_item">
+                <div class="menu_icon">
+                  <img src="../images/users.svg" class="img" />
+                </div>
+                <div class="menu_name">profile</div>
+              </a>
+            </div>
+          </li>
+          <li class="nav-items">
+            <div class="more_menu">
+              <a href="#" class="menu_item">
+                <div class="menu_icon">
+                  <img src="../images/settings.svg" class="img" />
+                </div>
+                <div class="menu_name">settings</div>
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
     </section>
+    <section class="login_dashbor" style="margin-bottom: 100px">
+      <div class="container container_wrapper">
+        <div class="text-heading">latest orders</div>
+        <div class="row">
+          <div class="col-md-7 table_rad">
+            <div class="table_section">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col" class="main_heading_top">date</th>
+                    <th scope="col" class="main_heading_top">id</th>
+                    <th scope="col" class="main_heading_top">order</th>
+                    <th scope="col" class="main_heading_top">status</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">10/26/2022</th>
+                    <td>25389</td>
+                    <td>
+                      <img
+                        src="../images/demomanimgaes.jpg"
+                        alt=""
+                        class="w-25"
+                      />
+                      Lorem ipsum dolor sit.
+                    </td>
+                    <td>
+                      <button class="btn btn_table">completed</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">10/26/2022</th>
+                    <td>25389</td>
+                    <td>
+                      <img
+                        src="../images/demomanimgaes.jpg"
+                        alt=""
+                        class="w-25"
+                      />
+                      Lorem ipsum dolor sit.
+                    </td>
+                    <td>
+                      <button
+                        class="btn btn_table"
+                        style="background-color: #e51918"
+                      >
+                        completed
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">10/26/2022</th>
+                    <td>25389</td>
+                    <td>
+                      <img
+                        src="../images/demomanimgaes.jpg"
+                        alt=""
+                        class="w-25"
+                      />
+                      Lorem ipsum dolor sit.
+                    </td>
+                    <td>
+                      <button
+                        class="btn btn_table"
+                        style="background-color: #ffc876"
+                      >
+                        completed
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">10/26/2022</th>
+                    <td>25389</td>
+                    <td>
+                      <img
+                        src="../images/demomanimgaes.jpg"
+                        alt=""
+                        class="w-25"
+                      />
+                      Lorem ipsum dolor sit.
+                    </td>
+                    <td>
+                      <button
+                        class="btn btn_table"
+                        style="background-color: #ffc876"
+                      >
+                        completed
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">10/26/2022</th>
+                    <td>25389</td>
+                    <td>
+                      <img
+                        src="../images/demomanimgaes.jpg"
+                        alt=""
+                        class="w-25"
+                      />
+                      Lorem ipsum dolor sit.
+                    </td>
+                    <td>
+                      <button class="btn btn_table">completed</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">10/26/2022</th>
+                    <td>25389</td>
+                    <td>
+                      <img
+                        src="../images/demomanimgaes.jpg"
+                        alt=""
+                        class="w-25"
+                      />
+                      Lorem ipsum dolor sit.
+                    </td>
+                    <td>
+                      <button class="btn btn_table">completed</button>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div class="box_girl_avtar">
+              <div class="box_img_postion">
+                <img
+                  src="https://dummyimage.com/100x100/000/dcdce0&text=stephen_doe"
+                  alt="Avatar"
+                  class="avatar"
+                />
+                <div class="text_heading_img">stephen doe</div>
+              </div>
+              <div class="box_with_detail">
+                <div class="design_color">
+                  <div class="heading_that_design">wallet ballence</div>
+                  <div class="box_design">
+                    <div class="icon_div">
+                      <i class="fa-regular fa-dollar-sign"></i>
+                    </div>
+                    <div class="price_div">980</div>
+                  </div>
+                </div>
+                <div class="design_color_sec">
+                  <div class="heading_that_design">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    total order
+                  </div>
+                  <div class="box_design">
+                    <div class="icon_div">
+                      <i class="fa-regular fa-dollar-sign"></i>
+                    </div>
+                    <div class="price_div">980</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- this is container padding -->
+        <div class="high_charts_set">
+          <div class="text_highcharts">order statics</div>
+          <div class="row">
+            <div class="col-sm-7">
+              <figure class="highcharts-figure">
+                <div id="container"></div>
+                <p class="highcharts-description"></p>
+              </figure>
+            </div>
+            <div class="col-sm-5">
+              <div class="box_orders">
+                <div class="text_order">pending orders</div>
+                <div class="circle_order">
+                  <div class="icon_width">25%</div>
+                </div>
+              </div>
+
+              <div
+                class="box_orders"
+                style="background-color: #377dff; color: #fff !important"
+              >
+                <div class="text_order">completed orders</div>
+                <div class="circle_order">
+                  <div class="icon_widthsec">25%</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+</main>
     <footer>
       <div class="footer-secondary">
         <div class="row">

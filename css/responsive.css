@@ -4,6 +4,9 @@
 
 
 @media (min-width:768px) and (max-width:992px) {
+    .section_setting .setting_box .nav-tabs {
+      gap: 10px;
+    }
 
     .dashbord_bg_img .main_bg_text_box {
         font-size: 25px;
@@ -50,7 +53,15 @@ margin-top: 30px;
 }
 
 @media (min-width:576px) and (max-width:768px) {
-
+    .section_setting .setting_box .nav-tabs .nav-link {
+    padding: 13px;
+        font-weight: 500;
+        font-size: 12px;
+    }
+    .section_setting .setting_box .nav-tabs {
+        gap: 5px;
+       
+      }
     .conatct_us_section .form_adjust {
         width: 100% !important;
     }
@@ -150,6 +161,19 @@ margin-bottom: 40px;
 /* mobile all responsive */
 
 @media (max-width:576px){
+
+    .section_setting .setting_box .nav-tabs {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+       
+  
+      }
+      .section_setting {
+        width: 100%;
+       padding: 10px;
+       overflow-x: hidden;
+    }
     .conatct_us_section .form_adjust {
         width: 100% !important;
     }
