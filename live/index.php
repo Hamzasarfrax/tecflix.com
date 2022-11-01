@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+    <title>Home</title>
 		<?php
 		require_once("user_content/header.php");
 		?>

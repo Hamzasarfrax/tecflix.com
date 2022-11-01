@@ -14,131 +14,171 @@ require_once("user_content/css.php")
 </style>
   </head>
   <body>
-
+  <?php
+require_once("user_content/Auth_header.php")
+?>
   <main>
   <section class="login_page">
   <?php
 require_once("user_content/sidebar.php")
 ?>
-    <section class="checkout_section">
-      <div class="container_wrapper">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-sm-12 col-xl-2 col-lg-2 col-md-4">
-            <div class="box_coloring_bg_checkout">
-              <div class="box_card_heading">
-                <div class="text_child_head active">order detail</div>
-              </div>
-              <hr />
-              <div class="box_card_heading">
-                <div class="text_child_head active">submit requirements</div>
-              </div>
-              <hr />
-              <div class="box_card_heading">
-                <div class="text_child_head active">confirm and pay</div>
-              </div>
-              <hr />
-            </div>
-          </div>
-          <div class="col-sm-12 col-xl-7 col-lg-7 col-md-8">
-            <div class="cart_box_table">
-              <table class="table">
-                <thead>
-                  <tr>
-                    <th scope="col" class="main_heading_top">product</th>
-                    <th scope="col" class="main_heading_top">price</th>
-                    <th scope="col" class="main_heading_top">qty</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    
-                    <td>
-                      <div class="checckout_img_box_table">
-                        <img src="https://dummyimage.com/200x100/000/dcdce0&text=table_img" 
-                        class="w-25" alt="">
-                        <span class="
-                        word_wrap_table
+<section class="manage_order_section">
 
-                       ">Lorem, ipsum dolor.
-                         <br>
-                          <button class="btn btn_detail_img_table"> view detail</button>
-                        </span>
-                      </div>
+<div class="container container_wrapper">
+  <div class="text_main_pages">
+    manage-order
+  </div>
+  <div class="row">
+    <div class="w-100">
+      <div class="table_section smal_device_margin_padding">
+        <tr class="nav_table_row">
+          <div class="to_nav_table">
+            <nav>
+              <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                <a class="nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">active order</a>
+                <a class="nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">completed</a>
+                <a class="nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">cancelled</a>
+                <a class="nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-allorder" role="tab" aria-controls="nav-contact" aria-selected="false">cancelled</a>
+              </div>
+            </nav>
+          </div>
+          </tr>
+          <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">  <div class="table_box">
+              <div class="icon_img">
+                   <img src="../images/order.svg" alt="">
+              </div>
+              <div class="text-center ">
+                   no active order yet
+              </div>
+         </div></div>
+            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+              <table class="table">
+     
+                <tbody class="tab-content" id="nav-tabContent">
+                  <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" >
+                  <tr>
+                    <th scope="col" class="main_heading_top">due date</th>
+                    <th scope="col" class="main_heading_top">deliver date</th>
+                    <th scope="col" class="main_heading_top">order id</th>
+                    <th scope="col" class="main_heading_top">products</th>
+                    <th scope="col" class="main_heading_top">order amount</th>
+                  </tr>
+                  <tr>
+                    <th scope="row">10/26/2022</th>
+                    <td>10/26/2022</td>
+                    <td>25389</td>
+                    <td class="width_mange_order">
+                      <img
+                        src="https://dummyimage.com/150x100/000/dcdce0&text=table_img"
+                        alt=""
+                        class="w-25"
+                      />
+                      Lorem ipsum dolor sit.
                     </td>
+                    <td><span class="order_class">
+                      $530
+                    </span></td>
                     <td>
-                        $456
-                    </td>
-                    <td>
-                      <div class="quantity">
-                        <button class="btn minus-btn disabled" type="button" onclick="'javscript', document.getElementById('quantity').value--">-</button>
-                        <input type="text" id="quantity" value="1">
-                        <button class="btn plus-btn" type="button" onclick="'javscript', document.getElementById('quantity').value++">+</button>
-                    </div>
+                      <button class="btn btn_reorder">re-order</button>
                     </td>
                   </tr>
+                  <tr>
+                    <th scope="row">10/26/2022</th>
+                    <td>10/26/2022</td>
+                    <td>25389</td>
+                    <td class="width_mange_order">
+                      <img
+                      src="https://dummyimage.com/150x100/000/dcdce0&text=table_img"
+                      alt=""
+                      class="w-25"
+                    />
+                      Lorem ipsum dolor sit.
+                    </td>
+                    <td><span class="order_class">
+                      $530
+                    </span></td>
+                    <td>
+                      <button class="btn btn_reorder">re-order</button>
+                    </td>
+                  </tr>
+    
+                  <tr>
+                    <th scope="row">10/26/2022</th>
+                    <td>10/26/2022</td>
+                    <td>25389</td>
+                    <td class="width_mange_order">
+                      <img
+                        src="https://dummyimage.com/150x100/000/dcdce0&text=table_img"
+                        alt=""
+                        class="w-25"
+                      />
+                      Lorem ipsum dolor sit.
+                    </td>
+                    <td><span class="order_class">
+                      $530
+                    </span></td>
+                    <td>
+                      <button class="btn btn_reorder">re-order</button>
+                    </td>
+                  </tr>
+    
+                  <tr>
+                    <th scope="row">10/26/2022</th>
+                    <td>10/26/2022</td>
+                    <td>25389</td>
+                    <td class="width_mange_order">
+                      <img
+                        src="https://dummyimage.com/150x100/000/dcdce0&text=table_img"
+                        alt=""
+                        class="w-25"
+                      />
+                      Lorem ipsum dolor sit.
+                    </td>
+                    <td><span class="order_class">
+                      $530
+                    </span></td>
+                    <td>
+                      <button class="btn btn_reorder">re-order</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">10/26/2022</th>
+                    <td>10/26/2022</td>
+                    <td>25389</td>
+                    <td class="width_mange_order">
+                      <img
+                        src="https://dummyimage.com/150x100/000/dcdce0&text=table_img"
+                        alt=""
+                        class="w-25"
+                      />
+                      Lorem ipsum dolor sit.
+                    </td>
+                    <td><span class="order_class">
+                      $530
+                    </span></td>
+                    <td>
+                      <button class="btn btn_reorder">re-order</button>
+                    </td>
+                  </tr>
+                </div>
                 </tbody>
               </table>
             </div>
-
-            <div class="another_table_txt_bottom">
-              <div class="heading_parent">
-                upgrade your order with lorem ipsum [optional]
-              </div>
-              <input type="radio">   <span>
-                Lorem ipsum dolor sit.
-              </span>
-              <div class="text_child">
-          <div class="wrap_padding">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa autem, dolorum iste id quibusdam officia.
+            <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab"></div>
           </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-12 col-xl-3 col-lg-3 col-md-12">
-            <div class="box_coloring_bg_checkout secondr_option_padding">
-              <div class="text_align_card_main">price summary</div>
-              <div class="box_parent_text">
-                <div class="sub_div_text">subtotal</div>
-                <div class="prcie_child">$1203</div>
-              </div>
-
-              <div class="box_parent_text">
-                <div class="sub_div_text">service free</div>
-                <div class="prcie_child">$10</div>
-              </div>
-              <div class="box_parent_text">
-                <div class="sub_div_text">total</div>
-                <div class="prcie_child">$1030</div>
-              </div>
-
-              <div class="box_parent_text">
-                <div class="sub_div_text">voucher code</div>
-                <div class="prcie_child"></div>
-              </div>
-
-              <div class="form_group_checkout">
-                <input type="text" class="form_checkout form-control" />
-                <button class="btn validate_btn">validate</button>
-              </div>
-              <button class="btn btn-main btn_continue_chekout">
-                continue
-              </button>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
-    </section>
-
-    </section>
+  </div>
+</div>  
+</section> 
 
     
 </main>
 
 
         <?php
-require_once("user_content/footer.php")
+require_once("user_content/Auth_footer.php")
 ?>
   </body>
 

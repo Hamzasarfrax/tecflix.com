@@ -1,3 +1,12 @@
+
+<?php 
+
+$path=$_SERVER['REQUEST_URI'];
+$path=explode('/', $path);
+$page=end($path)
+
+?>
+
 <header>
   <section class="header">
     <nav class="navbar navbar-expand-lg ">
@@ -11,32 +20,32 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto" id="nav_topbar">
-          <li class="nav-item ">
-            <a class="nav-link " href="index">Home </a>
+          <li class="nav-item <?php if($page=='index.php'){echo 'active';} ?> ">
+            <a class="nav-link " href="index.php">Home </a>
           </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="buy_services">buy services</a>
+          <li class="nav-item <?php if($page=='buy_services.php'){echo 'active';} ?>" >
+            <a class="nav-link" href="buy_services.php">buy services</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link " href="blogs">blogs</a>
+          <li class="nav-item <?php if($page=='blogs.php'){echo 'active';} ?>">
+            <a class="nav-link " href="blogs.php">blogs</a>
           </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="contact_us">contact us</a>
+          <li class="nav-item <?php if($page=='contact_us.php'){echo 'active';} ?>"">
+            <a class="nav-link" href="contact_us.php">contact us</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             others
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item active" href="About_us">about us</a>
-              <a class="dropdown-item" href="Careers">careers</a>
+              <a class="dropdown-item active" href="About_us.php">about us</a>
+              <a class="dropdown-item" href="Careers.php">careers</a>
               <a class="dropdown-item" href="#">copmpany portfolio</a>
-              <a class="dropdown-item" href="Quiz_contest">mothly quiz contest</a>
+              <a class="dropdown-item" href="Quiz_contest.php">mothly quiz contest</a>
               <a class="dropdown-item" href="#">terms and conditions</a>
             </div>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">login</a>
+          <li class="nav-item <?php if($page=='Dashbord.php'){echo 'active';} ?>">
+            <a class="nav-link" href="Dashbord.php">login</a>
           </li>
           <li class="nav-item signup">
             <a class="nav-link" 

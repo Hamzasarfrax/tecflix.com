@@ -8,9 +8,7 @@ require_once("user_content/header.php")
   <?php
 require_once("user_content/css.php")
 ?>
-    <?php
-require_once("user_content/style.php")
-?>
+
   </head>
   <body>
 

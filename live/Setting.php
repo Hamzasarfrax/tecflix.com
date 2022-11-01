@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-     <title>Profile</title>
+     <title>Setting</title>
   <?php
 require_once("user_content/header.php")
 ?>
@@ -14,7 +14,9 @@ require_once("user_content/css.php")
 </style>
   </head>
   <body>
-
+  <?php
+require_once("user_content/Auth_header.php")
+?>
   <main>
   <section class="login_page">
   <?php
@@ -121,8 +123,8 @@ require_once("user_content/sidebar.php")
 </main>
 
 
-        <?php
-require_once("user_content/footer.php")
+<?php
+require_once("user_content/Auth_footer.php")
 ?>
   </body>
 

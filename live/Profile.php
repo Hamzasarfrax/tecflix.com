@@ -14,15 +14,32 @@ require_once("user_content/css.php")
 </style>
   </head>
   <body>
-
+  <?php
+require_once("user_content/Auth_header.php")
+?>
   <main>
   <section class="login_page">
   <?php
 require_once("user_content/sidebar.php")
 ?>
-       <section class="dashbord_profile">
-        <div class="container_wrapper">
+        <section class="dashbord_profile">
+     <div class="">
+      <div class="box_with_overlay">
+       <div class="parent_childs">
+        <div class="text_overlay">
+          hello sleha !
+          
+        </div>
+        <div class="child_text">
+          this is your profile page . you can see your
+          <br>
+          details here!
+        </div>
+       </div>
+      </div>
+     </div>
       <div class="container">
+      
         <div class="row">
           <div class="col-sm-8">
             <div class="for_prifile_section">
@@ -69,7 +86,7 @@ require_once("user_content/sidebar.php")
             <div class="box_stephen_joe">
               <div class="img_position">
                 <img
-                  src="https://dummyimage.com/100x100/000/dcdce0&text=stephen_doe"
+                  src="https://dummyimage.com/100x100/000/fff&text=profile_stephen_doe"
                   alt=""
                   class="img rounded-circle"
                 />
@@ -99,13 +116,12 @@ require_once("user_content/sidebar.php")
           </div>
         </div>
       </div>
-      </div>
     </section>
 </main>
 
 
-        <?php
-require_once("user_content/footer.php")
+<?php
+require_once("user_content/Auth_footer.php")
 ?>
   </body>
 

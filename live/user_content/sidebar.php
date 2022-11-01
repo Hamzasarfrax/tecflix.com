@@ -1,14 +1,18 @@
 
+<?php 
 
+$path=$_SERVER['REQUEST_URI'];
+$path=explode('/', $path);
+$page=end($path)
+
+?>
 <section class="sider_dashbord_login">
       <div class="side_nav" id="sidebar">
-        <div class="icon_sidebar" onclick="sidebarToggle()">
-          <i class="fa-solid fa-bars"></i>
-        </div>
+  
         <ul class="sidebar p-0">
-          <li class="nav-items active">
+          <li class="nav-items <?php if($page=='Dashbord.php'){echo 'active';} ?> ">
             <div class="more_menu">
-              <a href="Dashbord" class="menu_item">
+              <a href="Dashbord.php" class="menu_item">
                 <div class="menu_icon">
                   <img src="../images/dashboard.svg" alt="" class="img" />
                 </div>
@@ -20,16 +24,16 @@
             <div class="more_menu">
               <a href="#" class="menu_item">
                 <div class="menu_icon">
-                  <img src="../images/products (2).svg" alt="" class="img" />
+                  <img src="../images/product.svg" alt="" class="img" />
                 </div>
                 <div class="menu_name">products</div>
               </a>
             </div>
           </li>
 
-          <li class="nav-items">
+          <li class="nav-items <?php if($page=='Order.php'){echo 'active';} ?>">
             <div class="more_menu">
-              <a href="Order" class="menu_item">
+              <a href="Order.php" class="menu_item">
                 <div class="menu_icon">
                   <img src="../images/order.svg" alt="" class="img" />
                 </div>
@@ -38,9 +42,9 @@
             </div>
           </li>
 
-          <li class="nav-items">
+          <li class="nav-items <?php if($page=='Report.php'){echo 'active';} ?>">
             <div class="more_menu">
-              <a href="Report" class="menu_item">
+              <a href="Report.php" class="menu_item">
                 <div class="menu_icon">
                   <img src="../images/reports.svg " class="img" />
                 </div>
@@ -49,9 +53,9 @@
             </div>
           </li>
           <hr />
-          <li class="nav-items">
+          <li class="nav-items <?php if($page=='Profile.php'){echo 'active';} ?>">
             <div class="more_menu">
-              <a href="Profile" class="menu_item">
+              <a href="Profile.php" class="menu_item">
                 <div class="menu_icon">
                   <img src="../images/users.svg" class="img" />
                 </div>
@@ -59,9 +63,9 @@
               </a>
             </div>
           </li>
-          <li class="nav-items">
+          <li class="nav-items <?php if($page=='Setting.php'){echo 'active';} ?>">
             <div class="more_menu">
-              <a href="Setting" class="menu_item">
+              <a href="Setting.php" class="menu_item">
                 <div class="menu_icon">
                   <img src="../images/settings.svg" class="img" />
                 </div>

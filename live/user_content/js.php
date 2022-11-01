@@ -4,6 +4,7 @@
     function sidebarToggle() {
       let sidebar = document.getElementById("sidebar");
       sidebar.classList.toggle("active");
+      document.querySelector(".container_wrapper").classList.toggle("active")
     }
   </script>
 
@@ -175,6 +176,13 @@ $('.your').slick({
      $('div.setup-panel div a.btn-success').trigger('click');
      });
   </script>
+
+
+
+<script>
+// Add active class to the current button (highlight it)
+
+</script>
 	<script
 		src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
 		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

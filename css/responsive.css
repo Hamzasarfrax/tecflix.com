@@ -457,6 +457,14 @@ padding: 0px;
  }
 
 @media (min-width:900px) {
+    .container_wrapper{
+        padding-left: 290px;
+        transition:0.5s linear;
+    }
+    .container_wrapper.active{
+        padding-left: 90px;
+        transition:0.5s linear;
+    }
     .buy_services .targetting_child {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
@@ -475,9 +483,7 @@ padding: 0px;
     .card{
 width: 18rem;
     }
-    .quit_contest .input_quiz{
-        width: 115%;
-    }
+  
     .section_tip_page  .postioning_box_text{
         position: absolute;
         top: 25%;
