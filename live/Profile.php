@@ -38,7 +38,7 @@ require_once("user_content/sidebar.php")
        </div>
       </div>
      </div>
-      <div class="container">
+      <div class="container-fluid  container_wrapper">
       
         <div class="row">
           <div class="col-sm-8">

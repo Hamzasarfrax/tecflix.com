@@ -27,7 +27,7 @@ require_once("user_content/Auth_header.php")
 require_once("user_content/sidebar.php")
 ?>
         <section class="login_dashbor" style="margin-bottom: 100px">
-      <div class="container container_wrapper">
+      <div class="container-fluid container_wrapper">
         <div class="text-heading">latest orders</div>
         <div class="row">
           <div class="col-lg-7 table_rad">

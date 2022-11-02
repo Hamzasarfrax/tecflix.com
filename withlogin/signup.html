@@ -60,7 +60,25 @@
         <div class="modal fade" id="signupmoadl" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog">
             <div class="modal-content">
+              <button type="button" class="close btn_close_modal" data-dismiss="modal" aria-label="Close" >
+                <style>
+                 .modal-content  .btn_close_modal{
+                    
+    display: flex;
+    justify-content: end;
+    
+    padding: 10px;
+                  }
+                  .modal-content  .btn_close_modal:focus{
+                    outline: none;
+                    border: none;
+                    box-shadow: none;
+                  }
+                </style>
+                <span aria-hidden="true">&times;</span>
+              </button>
               <div class="modal-header">
+             
                 <h5 class="modal-title text-center" id="staticBackdropLabel">
                   sign up
                 </h5>

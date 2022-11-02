@@ -54,7 +54,7 @@ require_once("user_content/css.php")
                          <input type="password" class="form-control input_quiz" placeholder="*********">
                     </div>
                </div>
-               <a class="btn btn-main btn_quiz" href="After_quiz_login">register</a>
+               <a class="btn btn-main btn_quiz" href="Quiz-test">register</a>
               </form>
             </div>
           </div>

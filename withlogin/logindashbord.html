@@ -126,7 +126,7 @@
       </div>
     </section>
     <section class="login_dashbor" style="margin-bottom: 100px">
-      <div class="container container_wrapper">
+      <div class=" container_wrapper">
         <div class="text-heading">latest orders</div>
         <div class="row">
           <div class="col-md-7 table_rad">
@@ -349,8 +349,8 @@
     function sidebarToggle() {
       let sidebar = document.getElementById("sidebar");
       sidebar.classList.toggle("active");
-      let container=document.querySelectorAll(".container_wrapper");
-      container.classList.toggle("active")
+      document.querySelector(".container_wrapper").classList.toggle("active")
+      
     }
   </script>
 

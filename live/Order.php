@@ -24,7 +24,7 @@ require_once("user_content/sidebar.php")
 ?>
 <section class="manage_order_section">
 
-<div class="container container_wrapper">
+<div class="container-fluid container_wrapper">
   <div class="text_main_pages">
     manage-order
   </div>

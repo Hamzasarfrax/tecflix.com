@@ -4,6 +4,7 @@
     function sidebarToggle() {
       let sidebar = document.getElementById("sidebar");
       sidebar.classList.toggle("active");
+      
       document.querySelector(".container_wrapper").classList.toggle("active")
     }
   </script>
@@ -87,7 +88,7 @@
 
 $('.your').slick({
       dots:true,
-      infinite: false,
+      infinite: true,
   speed: 300,
   slidesToShow: 5,
   slidesToScroll: 1,
@@ -128,6 +129,35 @@ $('.your').slick({
 		speed: 300,
 		slidesToShow: 2,
 		slidesToScroll: 1,
+    responsive: [
+
+{
+    breakpoint: 1190,
+    settings: {
+      arrows: true,
+    
+      slidesToShow: 2
+    }
+  },
+  {
+    breakpoint: 768,
+    settings: {
+      arrows: true,
+      
+      slidesToShow: 1
+    }
+  },
+  {
+    breakpoint: 570,
+    settings: {
+      arrows: false,
+      centerMode: true,
+      centerPadding: '40px',
+      slidesToShow: 1
+    }
+  }
+]
+
 		
 		
 		});

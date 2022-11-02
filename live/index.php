@@ -210,7 +210,7 @@ require_once("user_content/style.php")
   <section class="section_client_reviews">
     <div class="special_container">
       <div class="row">
-        <div class="col-sm-4">
+        <div class="col-md-4">
           <div class="client_reviews">
             what our
             <br>
@@ -219,7 +219,7 @@ require_once("user_content/style.php")
             say?
           </div>
         </div>
-        <div class="col-sm-8 full_width_col">
+        <div class="col-md-8 full_width_col">
           <div class="white_client_box">
             <div class="quotes">
               <img srcset="https://img.icons8.com/sf-regular-filled/2x/quote-left.png 2x" alt="Quote Left icon" loading="lazy" style="filter: invert(0%) sepia(1%) saturate(5%) hue-rotate(304deg) brightness(97%) contrast(103%);">

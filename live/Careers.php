@@ -25,7 +25,7 @@ require_once("user_content/top_menu.php")
             <img src="../images/careers.svg" alt="" class="img img-fluid">
             <div class="container_fluid_career">
               <div class="row">
-                <div class="col-sm-7">
+                <div class="col-md-7">
                   <div class="career_form_box">
                     <ul class="nav nav-tabs">
                       <li class="nav-item">

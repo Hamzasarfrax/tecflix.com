@@ -23,11 +23,11 @@ require_once("user_content/Auth_header.php")
 require_once("user_content/sidebar.php")
 ?>
        <section class="section_setting">
-      <div class="container_wrapper">
-        <div class="container">
+      <div class="">
+        <div class="container-fluid container_wrapper">
           <div class="row">
             <div class="setting_box">
-              <div class="w-100">
+              <div class="">
                 <ul class="nav nav-tabs">
                   <li class="nav-item">
                     <a class="nav-link active" href="#">account</a>

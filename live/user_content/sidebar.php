@@ -7,9 +7,15 @@ $page=end($path)
 
 ?>
 <section class="sider_dashbord_login">
+
       <div class="side_nav" id="sidebar">
-  
+   
         <ul class="sidebar p-0">
+          
+        <div class="mobile_hidden_bar " onclick="sidebarToggle()" id="icon_sidebar">
+          <i class="fa-solid fa-bars"></i>
+        
+        </div>
           <li class="nav-items <?php if($page=='Dashbord.php'){echo 'active';} ?> ">
             <div class="more_menu">
               <a href="Dashbord.php" class="menu_item">

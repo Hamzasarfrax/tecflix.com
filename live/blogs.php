@@ -60,252 +60,279 @@ require_once("user_content/style.php")
     </section>
     <section class="section_blog">
       <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-8">
-            <div class="blog_box row">
-              <div class="col-sm-6">
-                <div class="card" >
-                  <img src="https://dummyimage.com/600x500/000/dcdce0&text=Blog_image" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nisi explicabo
-                    </h5>
-                    <div class="opacity-text">
-                      bu dam adam nov 17,2022
-                    </div>
-                    <p class="card-text">Some quick example text to build on the card .</p>
-                    <a href="#" class="btn btn_card_blog">read more..</a>
+      <div class="row">
+      <div class="col-md-8">
+  <div class="blog_box row">
+      <div class="col-sm-6">
+           <div class="card" >
+                <img src="https://dummyimage.com/600x500/000/dcdce0&text=Blog_image" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nisi explicabo
+                  </h5>
+                  <div class="opacity-text">
+                    bu dam adam nov 17,2022
                   </div>
+                  <p class="card-text">Some quick example text to build on the card .</p>
+                  <a href="#" class="btn btn_card_blog">read more..</a>
                 </div>
               </div>
-              <div class="col-sm-6">
-                <div class="card" >
-                  <img src="https://dummyimage.com/600x500/000/dcdce0&text=Blog_image" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nisi explicabo
-                    </h5>
-                    <div class="opacity-text">
-                      bu dam adam nov 17,2022
-                    </div>
-                    <p class="card-text">Some quick example text to build on the card .</p>
-                    <a href="#" class="btn btn_card_blog">read more..</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6">
-                <div class="card" >
-                  <img src="https://dummyimage.com/600x500/000/dcdce0&text=Blog_image" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nisi explicabo
-                    </h5>
-                    <div class="opacity-text">
-                      bu dam adam nov 17,2022
-                    </div>
-                    <p class="card-text">Some quick example text to build on the card .</p>
-                    <a href="#" class="btn btn_card_blog">read more..</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6">
-                <div class="card" >
-                  <img src="https://dummyimage.com/600x500/000/dcdce0&text=Blog_image" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nisi explicabo
-                    </h5>
-                    <div class="opacity-text">
-                      bu dam adam nov 17,2022
-                    </div>
-                    <p class="card-text">Some quick example text to build on the card .</p>
-                    <a href="#" class="btn btn_card_blog">read more..</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6">
-                <div class="card" >
-                  <img src="https://dummyimage.com/600x500/000/dcdce0&text=Blog_image" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nisi explicabo
-                    </h5>
-                    <div class="opacity-text">
-                      bu dam adam nov 17,2022
-                    </div>
-                    <p class="card-text">Some quick example text to build on the card .</p>
-                    <a href="#" class="btn btn_card_blog">read more..</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6">
-                <div class="card" >
-                  <img src="https://dummyimage.com/600x500/000/dcdce0&text=Blog_image" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nisi explicabo
-                    </h5>
-                    <div class="opacity-text">
-                      bu dam adam nov 17,2022
-                    </div>
-                    <p class="card-text">Some quick example text to build on the card .</p>
-                    <a href="#" class="btn btn_card_blog">read more..</a>
-                  </div>
-                </div>
-              </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card" >
+          <img src="https://dummyimage.com/600x500/000/dcdce0&text=Blog_image" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nisi explicabo
+            </h5>
+            <div class="opacity-text">
+              bu dam adam nov 17,2022
             </div>
-          </div>
-          <div class="col-md-4">
-            <div class="blog_filter">
-              <div class="text_blog_heading">
-                search
-              </div>
-              <div class="input-group mb-3">
-                <input type="text" class="form-control search" placeholder="Search articles here" >
-                <span class="fa fa-search"></span>
-              </div>
-              <ul class="blog_nav ">
-                <li class="nav-item">
-                  <a href="#" class="nav-link text_blog_heading">
-                  categeory
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="http://" class="nav-link">
-                  all
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="http://" class="nav-link">
-                  graphic design
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="http://" class="nav-link">
-                  development
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="http://" class="nav-link">
-                  seo          </a>
-                </li>
-                <li class="nav-item">
-                  <a href="http://" class="nav-link">
-                  hosting     </a>
-                </li>
-                <li class="nav-item">
-                  <a href="http://" class="nav-link">
-                  web hosting     </a>
-                </li>
-                <li class="nav-item">
-                  <a href="http://" class="nav-link">
-                  mobile app design   </a>
-                </li>
-              </ul>
-              <div class="tex" id="text_tags_heading">popular tags</div>
-              <ul class="popular_tags_nav">
-                <li class="nav-item">
-                  <a href="http://" class="nav-link">
-                  hosting   </a>
-                </li>
-                <li class="nav-item">
-                  <a href="http://" class="nav-link">
-                  hosting xyz  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="http://" class="nav-link">
-                  lorem  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="http://" class="nav-link">
-                  lorem   </a>
-                </li>
-                <li class="nav-item">
-                  <a href="http://" class="nav-link">
-                  lorem ipsum </a>
-                </li>
-                <li class="nav-item">
-                  <a href="http://" class="nav-link">
-                  lorem  ipsum vgui </a>
-                </li>
-              </ul>
-              <div class="d_flex_blog">
-                <li class="nav-item">
-                  <a href="http://" class="nav-link">
-                    <div class="box_img_blog">
-                      <img src="https://dummyimage.com/300x200/000/dcdce0&text=small_images" class="w-50 rounded" alt="">
-                      <div class="blog_text">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, non?
-                      </div>
-                    </div>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="http://" class="nav-link">
-                    <div class="box_img_blog">
-                      <img src="https://dummyimage.com/300x200/000/dcdce0&text=small_images" class="w-50 rounded" alt="">
-                      <div class="blog_text">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, non?
-                      </div>
-                    </div>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="http://" class="nav-link">
-                    <div class="box_img_blog">
-                      <img src="https://dummyimage.com/300x200/000/dcdce0&text=small_images" class="w-50 rounded" alt="">
-                      <div class="blog_text">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, non?
-                      </div>
-                    </div>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="http://" class="nav-link">
-                    <div class="box_img_blog">
-                      <img src="https://dummyimage.com/300x200/000/dcdce0&text=small_images" class="w-50 rounded" alt="">
-                      <div class="blog_text">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, non?
-                      </div>
-                    </div>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="http://" class="nav-link">
-                    <div class="box_img_blog">
-                      <img src="https://dummyimage.com/300x200/000/dcdce0&text=small_images" class="w-50 rounded" alt="">
-                      <div class="blog_text">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, non?
-                      </div>
-                    </div>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="http://" class="nav-link">
-                    <div class="box_img_blog">
-                      <img src="https://dummyimage.com/300x200/000/dcdce0&text=small_images" class="w-50 rounded" alt="">
-                      <div class="blog_text">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, non?
-                      </div>
-                    </div>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="http://" class="nav-link">
-                    <div class="box_img_blog">
-                      <img src="https://dummyimage.com/300x200/000/dcdce0&text=small_images" class="w-50 rounded" alt="">
-                      <div class="blog_text">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, non?
-                      </div>
-                    </div>
-                  </a>
-                </li>
-              </div>
-            </div>
+            <p class="card-text">Some quick example text to build on the card .</p>
+            <a href="#" class="btn btn_card_blog">read more..</a>
           </div>
         </div>
       </div>
-    </section>
+      <div class="col-sm-6">
+        <div class="card" >
+          <img src="https://dummyimage.com/600x500/000/dcdce0&text=Blog_image" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nisi explicabo
+            </h5>
+            <div class="opacity-text">
+              bu dam adam nov 17,2022
+            </div>
+            <p class="card-text">Some quick example text to build on the card .</p>
+            <a href="#" class="btn btn_card_blog">read more..</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card" >
+          <img src="https://dummyimage.com/600x500/000/dcdce0&text=Blog_image" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nisi explicabo
+            </h5>
+            <div class="opacity-text">
+              bu dam adam nov 17,2022
+            </div>
+            <p class="card-text">Some quick example text to build on the card .</p>
+            <a href="#" class="btn btn_card_blog">read more..</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card" >
+          <img src="https://dummyimage.com/600x500/000/dcdce0&text=Blog_image" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nisi explicabo
+            </h5>
+            <div class="opacity-text">
+              bu dam adam nov 17,2022
+            </div>
+            <p class="card-text">Some quick example text to build on the card .</p>
+            <a href="#" class="btn btn_card_blog">read more..</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card" >
+          <img src="https://dummyimage.com/600x500/000/dcdce0&text=Blog_image" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nisi explicabo
+            </h5>
+            <div class="opacity-text">
+              bu dam adam nov 17,2022
+            </div>
+            <p class="card-text">Some quick example text to build on the card .</p>
+            <a href="#" class="btn btn_card_blog">read more..</a>
+          </div>
+        </div>
+      </div>
+      <div class="pagination_blogs">
+        <nav aria-label="Page navigation example">
+          <ul class="pagination">
+            <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+          </ul>
+        </nav>
+      </div>
+  </div>
+      </div>
+      <div class="col-md-4">
+        <div class="blog_filter">
+          <div class="text_blog_heading">
+           search
+          </div>
+          <div class="input-group mb-3">
+           <input type="text" class="form-control search" placeholder="Search articles here" >
+           <span class="fa fa-search"></span>
+         </div>
+  
+  <ul class="blog_nav ">
+   
+           <li class="nav-item">
+                <a href="#" class="nav-link text_blog_heading">
+                     categeory
+                </a>
+              </li>
+      <li class="nav-item">
+           <a href="http://" class="nav-link">
+  all
+           </a>
+      </li>
+      <li class="nav-item">
+           <a href="http://" class="nav-link">
+  graphic design
+           </a>
+      </li>
+      <li class="nav-item">
+           <a href="http://" class="nav-link">
+  development
+           </a>
+      </li>
+      <li class="nav-item">
+           <a href="http://" class="nav-link">
+  seo          </a>
+      </li>
+      <li class="nav-item">
+           <a href="http://" class="nav-link">
+  hosting     </a>
+      </li>
+      <li class="nav-item">
+           <a href="http://" class="nav-link">
+  web hosting     </a>
+           </li>
+           <li class="nav-item">
+                <a href="http://" class="nav-link">
+   mobile app design   </a>
+                </li>
+  </ul>
+  <div class="tex" id="text_tags_heading">popular tags</div>
+  <ul class="popular_tags_nav">
+    <li class="nav-item">
+      <a href="http://" class="nav-link">
+           hosting   </a>
+      </li>
+  
+           <li class="nav-item">
+                <a href="http://" class="nav-link">
+                     hosting xyz  </a>
+                </li>
+                <li class="nav-item">
+                     <a href="http://" class="nav-link">
+  lorem  </a>
+                     </li>
+                     <li class="nav-item">
+                          <a href="http://" class="nav-link">
+          lorem   </a>
+                          </li>
+                          <li class="nav-item">
+                               <a href="http://" class="nav-link">
+               lorem ipsum </a>
+                               </li>
+                               <li class="nav-item">
+                                    <a href="http://" class="nav-link">
+                    lorem  ipsum vgui </a>
+                                    </li>
+  </ul>
+  
+  <div class="d_flex_blog">
+  
+      <li class="nav-item">
+           <a href="http://" class="nav-link">
+                <div class="box_img_blog">
+                     <img src="https://dummyimage.com/300x200/000/dcdce0&text=small_images" class="w-50 rounded" alt="">
+                     <div class="blog_text">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, non?
+                  </div>
+                </div>
+               
+  </a>
+           </li>
+    
+           <li class="nav-item">
+             <a href="http://" class="nav-link">
+                  <div class="box_img_blog">
+                       <img src="https://dummyimage.com/300x200/000/dcdce0&text=small_images" class="w-50 rounded" alt="">
+                       <div class="blog_text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, non?
+                    </div>
+                  </div>
+                 
+   </a>
+             </li>
+             <li class="nav-item">
+               <a href="http://" class="nav-link">
+                    <div class="box_img_blog">
+                         <img src="https://dummyimage.com/300x200/000/dcdce0&text=small_images" class="w-50 rounded" alt="">
+                         <div class="blog_text">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, non?
+                      </div>
+                    </div>
+                   
+     </a>
+               </li>
+               <li class="nav-item">
+                 <a href="http://" class="nav-link">
+                      <div class="box_img_blog">
+                           <img src="https://dummyimage.com/300x200/000/dcdce0&text=small_images" class="w-50 rounded" alt="">
+                           <div class="blog_text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, non?
+                        </div>
+                      </div>
+                     
+       </a>
+                 </li>
+                 <li class="nav-item">
+                   <a href="http://" class="nav-link">
+                        <div class="box_img_blog">
+                             <img src="https://dummyimage.com/300x200/000/dcdce0&text=small_images" class="w-50 rounded" alt="">
+                             <div class="blog_text">
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, non?
+                          </div>
+                        </div>
+                       
+         </a>
+                   </li>
+                   <li class="nav-item">
+                     <a href="http://" class="nav-link">
+                          <div class="box_img_blog">
+                               <img src="https://dummyimage.com/300x200/000/dcdce0&text=small_images" class="w-50 rounded" alt="">
+                               <div class="blog_text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, non?
+                            </div>
+                          </div>
+                         
+           </a>
+                     </li>
+                     <li class="nav-item">
+                       <a href="http://" class="nav-link">
+                            <div class="box_img_blog">
+                                 <img src="https://dummyimage.com/300x200/000/dcdce0&text=small_images" class="w-50 rounded" alt="">
+                                 <div class="blog_text">
+                                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, non?
+                              </div>
+                            </div>
+                           
+             </a>
+                       </li>
+  
+  </div>
+  
+        </div>
+           </div>
+  </div>
+  
+  </div>
+  </section>
   </section>
 </main>
 		

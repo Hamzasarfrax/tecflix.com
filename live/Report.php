@@ -28,7 +28,7 @@ require_once("user_content/sidebar.php")
 
  <section class="reports_Section">
 
-  <div class="container container_wrapper">
+  <div class="container-fluid container_wrapper">
     <div class="text_main_pages">
       reports
     </div>
