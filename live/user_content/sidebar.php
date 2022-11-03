@@ -26,9 +26,9 @@ $page=end($path)
               </a>
             </div>
           </li>
-          <li class="nav-items">
+          <li class="nav-items <?php if($page=='Product.php'){echo 'active';} ?>">
             <div class="more_menu">
-              <a href="#" class="menu_item">
+              <a href="Product.php" class="menu_item">
                 <div class="menu_icon">
                   <img src="../images/product.svg" alt="" class="img" />
                 </div>

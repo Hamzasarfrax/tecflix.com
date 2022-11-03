@@ -24,7 +24,7 @@ require_once("user_content/sidebar.php")
 ?>
 <section class="manage_order_section">
 
-<div class="container-fluid container_wrapper">
+<div class=" container_wrapper">
   <div class="text_main_pages">
     manage-order
   </div>
@@ -51,12 +51,13 @@ require_once("user_content/sidebar.php")
               <div class="text-center ">
                    no active order yet
               </div>
-         </div></div>
+         </div>
+        </div>
             <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
               <table class="table">
      
                 <tbody class="tab-content" id="nav-tabContent">
-                  <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" >
+                  <div  >
                   <tr>
                     <th scope="col" class="main_heading_top">due date</th>
                     <th scope="col" class="main_heading_top">deliver date</th>
@@ -171,7 +172,7 @@ require_once("user_content/sidebar.php")
     </div>
   </div>
 </div>  
-</section> 
+</section>  
 
     
 </main>
