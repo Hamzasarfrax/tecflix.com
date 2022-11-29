@@ -44,6 +44,9 @@
       border: none;
       box-shadow: none;
       }
+      .panel-body img{
+        height:50px;
+      }
     </style>
   </head>
   <body>
@@ -159,7 +162,7 @@
                             THANK YOU
                           </div>
                           <div class="panel-body text-center">
-                            <img src="../images/registartion-complete.svg" alt="">
+                            <img src="../images/registartion-complete.svg" alt="" class="img-fluid ">
                             <div class="text_sucessful mt-3 mb-3">
                               registration
                               <br>

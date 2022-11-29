@@ -38,7 +38,7 @@
          </a>
        </li>
        <li class="nav-item d_flex_headr">
-         <a class="nav-link" href="#">
+         <a class="nav-link" href="index.php">
          <div class="wallet_box_header">
            <div class="img">
                 <img src="https://dummyimage.com/50x50/000/fff" alt="" class="rounded-circle">
