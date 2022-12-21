@@ -31,6 +31,13 @@ require_once("user_content/top_menu.php")
     </div>
 
     
+
+              
+ <!-- thsis is bg img -->
+ <div class="about_bg_img">
+    <img src="assets/images/Background-About-us.svg" alt="">
+
+
     <div class=" container text_inside_bg_img">
          <div class="text_heading">
               about us
@@ -42,9 +49,6 @@ require_once("user_content/top_menu.php")
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum maxime soluta, consequatur aperiam minus, accusantium quam modi aspernatur totam dolorum sapiente ipsam itaque cupiditate consectetur? Quidem quo quis ducimus consequatur!lorem
          </div>
               </div>
- <!-- thsis is bg img -->
- <div class="about_bg_img">
-    <img src="../images/Background-About-us.svg" alt="">
     </div>
   
 </section>

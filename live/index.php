@@ -22,7 +22,7 @@ require_once("user_content/style.php")
   <section class="dashbord_bg_img">
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
-        <img src="../images/sucessfulman.webp" class=" w-100" alt="...">
+        <img src="assets/images/sucessfulman.webp" class=" w-100" alt="...">
         <div class="carousel-item active">
           <div class="container">
             <div class="row">
@@ -52,7 +52,7 @@ require_once("user_content/style.php")
       <div class="row">
         <div class="col-sm-12">
           <div class="img_banner">
-            <img src="../images/Banner.png" alt="" class="banner_child_img">
+            <img src="assets/images/Banner.png" alt="banner" class="banner_child_img">
             <div class="text_banner_img">
               <p>  services</p>
               <div class="we_offer_text">
@@ -85,7 +85,7 @@ require_once("user_content/style.php")
           <a href="">
             <div class="box_tb_border">
               <div class="services_icons">
-                <img src="../images/web-hosting.svg" alt="" class="img">
+                <img src="assets/images/web-hosting.svg" alt="" class="img">
               </div>
               <div class="services_text">
                 <p>
@@ -99,7 +99,7 @@ require_once("user_content/style.php")
           <a href="">
             <div class="box_tb_border">
               <div class="services_icons">
-                <img src="../images/graphic-designing.svg" alt="" class="img">
+                <img src="assets/images/graphic-designing.svg" alt="" class="img">
               </div>
               <div class="services_text">
                 <p>
@@ -113,7 +113,7 @@ require_once("user_content/style.php")
           <a href="">
             <div class="box_tb_border2">
               <div class="services_icons">
-                <img src="../images/Domain-registration.svg" alt="" class="img">
+                <img src="assets/images/Domain-registration.svg" alt="" class="img">
               </div>
               <div class="services_text">
                 <p>
@@ -127,7 +127,7 @@ require_once("user_content/style.php")
           <a href="">
             <div class="box_tb_border2">
               <div class="services_icons">
-                <img src="../images/payment-gateway-solution.svg" alt="" class="img">
+                <img src="assets/images/payment-gateway-solution.svg" alt="" class="img">
               </div>
               <div class="services_text">
                 <p>
@@ -141,7 +141,7 @@ require_once("user_content/style.php")
           <a href="">
             <div class="box_tb_border2">
               <div class="services_icons">
-                <img src="../images/DIGITAL-MARKETING.svg" alt="" class="img">
+                <img src="assets/images/DIGITAL-MARKETING.svg" alt="" class="img">
               </div>
               <div class="services_text">
                 <p>

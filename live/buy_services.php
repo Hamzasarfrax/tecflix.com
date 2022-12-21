@@ -37,7 +37,7 @@ require_once("user_content/top_menu.php")
          <a href="" class="nav-link">
           <div class="box_services_border">
             <div class="icons_services_img">
-              <img src="../images/web-hosting.svg" alt="" class="img" />
+              <img src="assets/images/web-hosting.svg" alt="" class="img" />
             </div>
             <div class="text_serives_box">web hosting packages</div>
           </div>
@@ -47,7 +47,7 @@ require_once("user_content/top_menu.php")
        <a href="" class="nav-link">
         <div class="box_services_border">
           <div class="icons_services_img">
-            <img src="../images/graphic-designing.svg" alt="" class="img" />
+            <img src="assets/images/graphic-designing.svg" alt="" class="img" />
           </div>
           <div class="text_serives_box">graphic design</div>
         </div>
@@ -62,7 +62,7 @@ require_once("user_content/top_menu.php")
           <button class="btn bt_editing">
                <div class="box_services_colr first">
                  <div class="content_service">
-                   <img src="../images/flyer.svg" alt="" />
+                   <img src="assets/images/flyer.svg" alt="" />
                  </div>
                  <div class="text_blog">
                     logo
@@ -83,7 +83,7 @@ require_once("user_content/top_menu.php")
              <button class="btn bt_editing">
                <div class="box_services_colr third">
                  <div class="content_service">
-                   <img src="../images/flyer.svg" alt="" />
+                   <img src="assets/images/flyer.svg" alt="" />
                  </div>
                  <div class="text_blog">
                     flyer
@@ -94,7 +94,7 @@ require_once("user_content/top_menu.php")
              <button class="btn bt_editing">
                <div class="box_services_colr four">
                  <div class="content_service">
-                   <img src="../images/Youtube.svg" alt="" />
+                   <img src="assets/images/Youtube.svg" alt="" />
                  </div>
                  <div class="text_blog">
                   youtube thumbnail
@@ -105,7 +105,7 @@ require_once("user_content/top_menu.php")
              <button class="btn bt_editing">
                <div class="box_services_colr five">
                  <div class="content_service">
-                   <img src="../images/flyer.svg" alt="" />
+                   <img src="assets/images/flyer.svg" alt="" />
                  </div>
                  <div class="text_blog">
                     facebook / youtube
@@ -117,7 +117,7 @@ require_once("user_content/top_menu.php")
              <button class="btn bt_editing">
                <div class="box_services_colr six">
                  <div class="content_service">
-                   <img src="../images/Roll-up-banner.svg" alt="" />
+                   <img src="assets/images/Roll-up-banner.svg" alt="" />
                  </div>
                  <div class="text_blog">
                     roll up banner
@@ -128,7 +128,7 @@ require_once("user_content/top_menu.php")
              <button class="btn bt_editing">
                <div class="box_services_colr seven">
                  <div class="content_service">
-                   <img src="../images/flyer.svg" alt="" />
+                   <img src="assets/images/flyer.svg" alt="" />
                  </div>
                  <div class="text_blog">
                     banner
@@ -139,7 +139,7 @@ require_once("user_content/top_menu.php")
              <button class=" btn bt_editing">
                <div class="box_services_colr eight">
                  <div class="content_service">
-                   <img src="../images/flyer.svg" alt="" />
+                   <img src="assets/images/flyer.svg" alt="" />
                  </div>
                  <div class="text_blog">
                logon
@@ -157,7 +157,7 @@ require_once("user_content/top_menu.php")
                         <a href="">
                           <div class="box_services_border">
                             <div class="icons_services_img">
-                              <img src="../images/Domain-registration.svg" alt="" class="img" />
+                              <img src="assets/images/Domain-registration.svg" alt="" class="img" />
                             </div>
                             <div class="text_serives_box">domain registration</div>
                           </div>
@@ -167,7 +167,7 @@ require_once("user_content/top_menu.php")
                   <a href="">
                     <div class="box_services_border">
                       <div class="icons_services_img">
-                        <img src="../images/payment-gateway-solution.svg" alt="" class="img" />
+                        <img src="assets/images/payment-gateway-solution.svg" alt="" class="img" />
                       </div>
                       <div class="text_serives_box">
                            payment gateway solution
@@ -179,7 +179,7 @@ require_once("user_content/top_menu.php")
                     <a href="">
                       <div class="box_services_border">
                         <div class="icons_services_img">
-                          <img src="../images/DIGITAL-MARKETING.svg" alt="" class="img" />
+                          <img src="assets/images/DIGITAL-MARKETING.svg" alt="" class="img" />
                         </div>
                         <div class="text_serives_box">digital marketing</div>
                       </div>

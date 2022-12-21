@@ -39,7 +39,7 @@ $page=end($path)
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item  <?php if($page=='About_us.php'){echo 'active';} ?>" href="About_us.php">about us</a>
               <a class="dropdown-item <?php if($page=='Careers.php'){echo 'active';} ?>" href="Careers.php">careers</a>
-              <a class="dropdown-item <?php if($page=='company_portfolio.php'){echo 'active';} ?>" href="#">copmpany portfolio</a>
+              <a class="dropdown-item <?php if($page=='Portfolio.php'){echo 'active';} ?>" href="Portfolio.php">copmpany portfolio</a>
               <a class="dropdown-item <?php if($page=='Quiz_contest.php'){echo 'active';} ?>" href="Quiz_contest.php">mothly quiz contest</a>
               <a class="dropdown-item <?php if($page=='term_condition.php'){echo 'active';} ?>" href="#">terms and conditions</a>
             </div>

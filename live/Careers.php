@@ -22,7 +22,7 @@ require_once("user_content/top_menu.php")
       <div class="container_fluid">
         <div class="">
           <div class="carosel_img">
-            <img src="../images/careers.svg" alt="" class="img img-fluid">
+            <img src="assets/images/careers.svg" alt="" class="img img-fluid">
             <div class="container_fluid_career">
               <div class="row">
                 <div class="col-md-7">
